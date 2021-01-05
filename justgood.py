@@ -98,6 +98,39 @@ class imjustgood(threading.Thread):
 
     def github(self, userID):
         return self.Get("/github="+userID)
+    
+    def joox(self, query):
+        return self.Get("/joox="+query)
+    
+    def lyric(self, query):
+        return self.Get("/lyric="+query)
+    
+    def smule(self, userID):
+        return self.Get("/smule="+userID)
+    
+    def smuledl(self, link):
+        return self.Get("/smuledl="+link)
+    
+    def tiktok(self, userID):
+        return self.Get("/tiktok="+userID)
+    
+    def smuledl(self, link):
+        return self.Get("/tiktokdl="+link)
+    
+    def instagram(self, userID):
+        return self.Get("/instagram="+userID)
+    
+    def instastory(self, userID):
+        return self.Get("/instastory="+userID)
+    
+    def instapost(self, link):
+        return self.Get("/instapost="+link)
+    
+    def twitter(self, userID):
+        return self.Get("/twitter="+userID)
+    
+    def playstore(self, query):
+        return self.Get("/playstore="+query)
 
 
 ############# S E M P L E #################
