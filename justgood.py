@@ -133,9 +133,9 @@ class imjustgood(threading.Thread):
         return self.Get("/playstore="+query)
 
     def translate(self, lang, query):
-        return self.Get("/playstore="+lang+"="+query)
+        return self.Get("/translate="+lang+"="+query)
 
-    def playstore(self, query):
+    def wallpaper(self, query):
         return self.Get("/wallpaper="+query)
 
     def hentai(self):
@@ -168,7 +168,7 @@ class imjustgood(threading.Thread):
     def quotes(self):
         return self.Get("/quotes")
 
-    def vagina(self, query):
+    def movie(self, query):
         return self.Get("/movie="+query)
 
     def bmkg(self):
@@ -189,10 +189,10 @@ class imjustgood(threading.Thread):
     def adzan(self, city):
         return self.Get("/adzan="+city)
 
-    def adzan(self, city):
+    def cuaca(self, city):
         return self.Get("/cuaca="+city)
 
-    def vagina(self, text1, text2, urlImage):
+    def meme(self, text1, text2, urlImage):
         return self.Get("/meme/"+text1+"/"+text2+"/"+"url="+urlImage)
 
 ############# S E M P L E #################
