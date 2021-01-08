@@ -132,6 +132,68 @@ class imjustgood(threading.Thread):
     def playstore(self, query):
         return self.Get("/playstore="+query)
 
+    def translate(self, lang, query):
+        return self.Get("/playstore="+lang+"="+query)
+
+    def playstore(self, query):
+        return self.Get("/wallpaper="+query)
+
+    def hentai(self):
+        return self.Get("/hentai")
+
+    def karir(self):
+        return self.Get("/karir")
+
+    def infoHp(self, query):
+        return self.Get("/cell="+query)
+
+    def infoTanggalLahir(self, birth):
+        return self.Get("/lahir="+birth)
+
+    def infoTanggalJadian(self, love):
+        return self.Get("/jadian="+love)
+
+    def kamasutra(self):
+        return self.Get("/kamasutra")
+
+    def dick(self):
+        return self.Get("/dick")
+
+    def tits(self):
+        return self.Get("/tits")
+
+    def vagina(self):
+        return self.Get("/vagina")
+
+    def quotes(self):
+        return self.Get("/quotes")
+
+    def vagina(self, query):
+        return self.Get("/movie="+query)
+
+    def bmkg(self):
+        return self.Get("/bmkg")
+
+    def acaratv(self):
+        return self.Get("/acaratv/now")
+
+    def acaraTvChannel(self, channel):
+        return self.Get("/acaratv="+channel)
+
+    def cctvCode(self):
+        return self.Get("/cctv/code")
+
+    def cctvSearch(self, code):
+        return self.Get("/cctv/search/id="+code)
+
+    def adzan(self, city):
+        return self.Get("/adzan="+city)
+
+    def adzan(self, city):
+        return self.Get("/cuaca="+city)
+
+    def vagina(self, text1, text2, urlImage):
+        return self.Get("/meme/"+text1+"/"+text2+"/"+"url="+urlImage)
 
 ############# S E M P L E #################
 # from justgood import imjustgood
