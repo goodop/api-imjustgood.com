@@ -10,7 +10,7 @@ from justgood import imjustgood
 media = imjustgood("YOUR_APIKEY")
 
 if text.startswith("cinema "):
-    query = text.split(" ")[1]
+    query = ' '.join(text.split()[1:]).lstrip().rstrip()
     data = media.cinema(query)
     print(data)
 ```
