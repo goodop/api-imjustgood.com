@@ -15,3 +15,10 @@ if text.startswith("cinema "):
     data = media.cinema(query)
     print(data)
 ```
+API DOCUMENTATION
+
+| Media        | URL           | Params  |
+| ------------- |:-------------:| -----:|
+| Instagram      | https://api.imjustgood.com/instagram= | ID |
+| Youtube      | https://api.imjustgood.com/youtube=      |   Query |
+| Tiktok | https://api.imjustgood.com/tiktok=     |    ID |
