@@ -19,6 +19,6 @@ API DOCUMENTATION
 
 | Media        | URL           | Params  |
 | ------------- |:-------------:| -----:|
-| Instagram      | https://api.imjustgood.com/instagram= | ID |
+| Instagram    | https://api.imjustgood.com/instagram= | ID |
 | Youtube      | https://api.imjustgood.com/youtube=      |   Query |
 | Tiktok | https://api.imjustgood.com/tiktok=     |    ID |
