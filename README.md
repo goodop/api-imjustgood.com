@@ -11,7 +11,7 @@ from justgood import imjustgood
 media = imjustgood("YOUR_APIKEY_HERE")
 
 if text.startswith("cinema "):
-    query = text.split()[1]
+    query = " ".join(text.split()[1:])
     data = media.cinema(query)
     print(data)
 ```
