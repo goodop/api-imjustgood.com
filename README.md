@@ -1,7 +1,7 @@
 ## Documentation
 Full documentation is available at http://api.imjustgood.com
 
-## Example:
+## Example
 Here is how to use the module in your own python code
 and i chose cinema 21 for example.
 
