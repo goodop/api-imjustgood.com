@@ -1,16 +1,17 @@
-# api.imjustgood.com
-Sample request for api.imjustgood.com
-please visit webpage imjustgood.com for more details.
-
+## Documentation
+Full documentation is available at http://api.imjustgood.com
 
 ## Example:
+Here is how to use the module in your own python code
+and i chose cinema 21 for example.
+
 ```python
 from justgood import imjustgood
 
-media = imjustgood("YOUR_APIKEY")
+media = imjustgood("YOUR_APIKEY_HERE")
 
 if text.startswith("cinema "):
-    query = ' '.join(text.split()[1:]).lstrip().rstrip()
+    query = text.split()[1]
     data = media.cinema(query)
     print(data)
 ```
