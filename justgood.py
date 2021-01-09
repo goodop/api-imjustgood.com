@@ -36,38 +36,72 @@ class imjustgood(threading.Thread):
             raise Exception(str(req))
         return req
 
-    def cinema(self, city):
-        return self.Get("/cinema="+city)
-
+    """
+       Usage:
+         @text = string
+         @query = query of searching
+         @name = query name
+         @url = url of post
+         @imageUrl = url of image
+         @userId = id of social platform
+         @lang = country code | check here --> https://api.imjustgood.com/language/code
+         @code = city code
+         @city = city name | eg: jakarta
+         @sign = zodiac name | eg: aries
+         @date = date-month-year | eg: 17-08-1945
+         @channnel = station of television         
+    """
+    
     def youtube(self, query):
         return self.Get("/youtube="+query)
 
     def youtubedl(self, url):
         return self.Get("/youtubedl="+url)
 
-    def twitter(self, userID):
-        return self.Get("/twitter="+userID)
+    def joox(self, query):
+        return self.Get("/joox="+query)
+    
+    def lyric(self, query):
+        return self.Get("/lyric="+query)
 
-    def zodiac(self, sign):
-        return self.Get("/zodiac="+sign)
+    def smule(self, userId):
+        return self.Get("/smule="+userId)
+    
+    def smuledl(self, url):
+        return self.Get("/smuledl="+url)
+
+    def tiktok(self, userId):
+        return self.Get("/tiktok="+userId)
+    
+    def tiktokdl(self, url):
+        return self.Get("/tiktokdl="+url)
+
+    def instagram(self, userId):
+        return self.Get("/instagram="+userId)
+    
+    def instapost(self, url):
+        return self.Get("/instapost="+url)
+
+    def instastory(self, userId):
+        return self.Get("/instastory="+userId)
+
+    def twitter(self, userId):
+        return self.Get("/twitter="+userId)
+    
+    def github(self, userId):
+        return self.Get("/github="+userId)
+
+    def playstore(self, query):
+        return self.Get("/playstore="+query)
+
+    def translate(self, lang, text):
+        return self.Get("/translate/"+lang+"="+text)
 
     def image(self, query):
         return self.Get("/image="+query)
 
-    def nama(self, name):
-        return self.Get("/nama="+name)
-
-    def mimpi(self, query):
-        return self.Get("/mimpi="+query)
-
     def wallpaper(self, query):
         return self.Get("/wallpaper="+query)
-
-    def tinyurl(self, url):
-        return self.Get("/tinyurl="+url)
-
-    def bitly(self, url):
-        return self.Get("/bitly="+url)
 
     def porn(self, query):
         return self.Get("/porn="+query)
@@ -77,75 +111,6 @@ class imjustgood(threading.Thread):
 
     def hentai(self):
         return self.Get("/hentai")
-
-    def topnews(self):
-        return self.Get("/topnews")
-
-    def corona(self):
-        return self.Get("/corona")
-
-    def calc(self, digit):
-        return self.Get("/calc="+digit)
-
-    def wikipedia(self, query):
-        return self.Get("/wikipedia="+query)
-
-    def urban(self, query):
-        return self.Get("/urban="+query)
-
-    def movie(self, title):
-        return self.Get("/movie="+title)
-
-    def github(self, userID):
-        return self.Get("/github="+userID)
-    
-    def joox(self, query):
-        return self.Get("/joox="+query)
-    
-    def lyric(self, query):
-        return self.Get("/lyric="+query)
-    
-    def smule(self, userID):
-        return self.Get("/smule="+userID)
-    
-    def smuledl(self, link):
-        return self.Get("/smuledl="+link)
-    
-    def tiktok(self, userID):
-        return self.Get("/tiktok="+userID)
-    
-    def smuledl(self, link):
-        return self.Get("/tiktokdl="+link)
-    
-    def instagram(self, userID):
-        return self.Get("/instagram="+userID)
-    
-    def instastory(self, userID):
-        return self.Get("/instastory="+userID)
-    
-    def instapost(self, link):
-        return self.Get("/instapost="+link)
-    
-    def twitter(self, userID):
-        return self.Get("/twitter="+userID)
-    
-    def playstore(self, query):
-        return self.Get("/playstore="+query)
-
-    def translate(self, lang, query):
-        return self.Get("/translate/"+lang+"="+query)
-
-    def karir(self):
-        return self.Get("/karir")
-
-    def infoHp(self, query):
-        return self.Get("/cell="+query)
-
-    def infoTanggalLahir(self, birth):
-        return self.Get("/lahir="+birth)
-
-    def infoTanggalJadian(self, love):
-        return self.Get("/jadian="+love)
 
     def kamasutra(self):
         return self.Get("/kamasutra")
@@ -159,26 +124,35 @@ class imjustgood(threading.Thread):
     def vagina(self):
         return self.Get("/vagina")
 
-    def quotes(self):
-        return self.Get("/quotes")
+    def meme(self, text1, text2, imageUrl):
+        return self.Get("/meme/"+text1+"/"+text2+"/"+"url="+imageUrl)
 
     def movie(self, query):
         return self.Get("/movie="+query)
 
-    def bmkg(self):
-        return self.Get("/bmkg")
+    def movie_quotes(self):
+        return self.Get("/movie/quotes")
 
-    def acaratv(self):
-        return self.Get("/acaratv/now")
+    def cinema(self, city):
+        return self.Get("/cinema="+city)
 
-    def acaraTvChannel(self, channel):
-        return self.Get("/acaratv="+channel)
+    def tinyurl(self, url):
+        return self.Get("/tinyurl="+url)
 
-    def cctvCode(self):
-        return self.Get("/cctv/code")
+    def bitly(self, url):
+        return self.Get("/bitly="+url)
 
-    def cctvSearch(self, code):
-        return self.Get("/cctv/search/id="+code)
+    def topnews(self):
+        return self.Get("/topnews")
+
+    def wikipedia(self, query):
+        return self.Get("/wikipedia="+query)
+
+    def urban(self, query):
+        return self.Get("/urban="+query)
+
+    def zodiac(self, sign):
+        return self.Get("/zodiac="+sign)
 
     def adzan(self, city):
         return self.Get("/adzan="+city)
@@ -186,8 +160,41 @@ class imjustgood(threading.Thread):
     def cuaca(self, city):
         return self.Get("/cuaca="+city)
 
-    def meme(self, text1, text2, urlImage):
-        return self.Get("/meme/"+text1+"/"+text2+"/"+"url="+urlImage)
+    def bmkg(self):
+        return self.Get("/bmkg")
+
+    def corona(self):
+        return self.Get("/corona")
+
+    def karir(self):
+        return self.Get("/karir")
+ 
+    def cellular(self, query):
+        return self.Get("/cell="+query)
+
+    def lahir(self, date):
+        return self.Get("/lahir="+date)
+
+    def jadian(self, date):
+        return self.Get("/jadian="+date)
+ 
+    def nama(self, name):
+        return self.Get("/nama="+name)
+
+    def mimpi(self, query):
+        return self.Get("/mimpi="+query)
+
+    def acaratv(self):
+        return self.Get("/acaratv/now")
+
+    def acaratv_channel(self, channel):
+        return self.Get("/acaratv="+channel)
+
+    def cctv_code(self):
+        return self.Get("/cctv/code")
+
+    def cctvSearch(self, code):
+        return self.Get("/cctv/search/id="+code)
 
 ############# S E M P L E #################
 # from justgood import imjustgood
