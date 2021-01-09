@@ -1,5 +1,5 @@
 ### Documentation
-Full documentation is available at http://api.imjustgood.com
+Full documentation is available at https://api.imjustgood.com
 ### Installation
 ```python
 pip install justgood
