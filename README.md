@@ -5,8 +5,7 @@ Full documentation is available at http://api.imjustgood.com
 pip install justgood
 ```
 ### Example
-Here is how to use the module in your own python code
-for example i call instapost properties.
+Here is how to use the module in your own python code, for example i call instapost properties.
 ```python
 from justgood import imjustgood
 
