@@ -133,13 +133,7 @@ class imjustgood(threading.Thread):
         return self.Get("/playstore="+query)
 
     def translate(self, lang, query):
-        return self.Get("/translate="+lang+"="+query)
-
-    def wallpaper(self, query):
-        return self.Get("/wallpaper="+query)
-
-    def hentai(self):
-        return self.Get("/hentai")
+        return self.Get("/translate/"+lang+"="+query)
 
     def karir(self):
         return self.Get("/karir")
@@ -197,6 +191,6 @@ class imjustgood(threading.Thread):
 
 ############# S E M P L E #################
 # from justgood import imjustgood
-# juh = imjustgood("YOUR_APIKEY")
-# yosgood = juh.cinema("jakarta")
-# print(yosgood)
+# media = imjustgood("YOUR_APIKEY")
+# data = media.cinema("jakarta")
+# print(data)
