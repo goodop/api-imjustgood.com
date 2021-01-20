@@ -72,3 +72,44 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
 ```
 ### More Example
 for more example request attribute please check it out <a href="https://github.com/goodop/api-imjustgood.com/tree/main/Example">here.</a>
+### Function Attribute
+<table>
+<thead>
+<tr>
+<th>Media</th>
+<th>Reference</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Instagram Profile</td>
+<td><a href="https://github.com/goodop/api-imjustgood.com/blob/7d5f47a15ef022750aed2b25f28033e142b41742/justgood.py#L79">getInstagram</a></td>
+</tr>
+<tr>
+<td>Tiktok Profile</td>
+<td><a href="https://github.com/goodop/api-imjustgood.com/blob/7d5f47a15ef022750aed2b25f28033e142b41742/justgood.py#L73">getTiktok</a></td>
+</tr>
+<tr>
+<td>Joox Music</td>
+<td><a href="https://github.com/goodop/api-imjustgood.com/blob/7d5f47a15ef022750aed2b25f28033e142b41742/justgood.py#L61">getJoox</a></td>
+</tr>
+<tr>
+<td>Youtube Search</td>
+<td><a href="https://github.com/goodop/api-imjustgood.com/blob/7d5f47a15ef022750aed2b25f28033e142b41742/justgood.py#L55">getYoutube</a></td>
+</tr>
+<tr>
+<td>Youtube Download</td>
+<td><a href="https://github.com/goodop/api-imjustgood.com/blob/7d5f47a15ef022750aed2b25f28033e142b41742/justgood.py#L58">getYoutubedl</a></td>
+</tr>
+<tr>
+<td>Smule Profile</td>
+<td><a href="https://github.com/goodop/api-imjustgood.com/blob/7d5f47a15ef022750aed2b25f28033e142b41742/justgood.py#L67">getYoutubeMp4</a></td>
+</tr>
+<tr>
+<td>Porn Video</td>
+<td><a href="https://github.com/goodop/api-imjustgood.com/blob/7d5f47a15ef022750aed2b25f28033e142b41742/justgood.py#L106">getPorn</a></td>
+</tr>
+<tr>
+<td>Porn Star</td>
+<td><a href="https://github.com/goodop/api-imjustgood.com/blob/7d5f47a15ef022750aed2b25f28033e142b41742/justgood.py#L109">getPornStar</a></td>
+</tr>
+</tbody></table>
