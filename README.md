@@ -102,7 +102,7 @@ for more example request attribute please check it out <a href="https://github.c
 </tr>
 <tr>
 <td>Smule Profile</td>
-<td><a href="https://github.com/goodop/api-imjustgood.com/blob/7d5f47a15ef022750aed2b25f28033e142b41742/justgood.py#L67">getYoutubeMp4</a></td>
+<td><a href="https://github.com/goodop/api-imjustgood.com/blob/7d5f47a15ef022750aed2b25f28033e142b41742/justgood.py#L67">getSmule</a></td>
 </tr>
 <tr>
 <td>Porn Video</td>
