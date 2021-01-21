@@ -15,7 +15,7 @@ print(result)
 
 # Get cinema details attributes
 number = 0
-select_ = 1
+select_ = 1 # number of cinema
 cinema = data["result"]["data"]
 list_cinema = [o for o in cinema]
 track = list_cinema[select_-1]
@@ -30,8 +30,8 @@ print(result)
 
 # Get movie details attributes
 number = 0
-select_one = 1
-select_two = 1
+select_one = 1 # number of cinema
+select_two = 1 # number of movie
 showtime = ""
 cinema = data["result"]["data"]
 list_cinema = [o for o in cinema]
