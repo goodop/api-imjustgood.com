@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-post_url = "https://instagram.com/p/CJtqfEbhpjO/"
+post_url = "https://instagram.com/p/CJtqfEbhpjO/" # example instapost url
 data = media.instapost(post_url)
 
 result = "Instagram Post"
