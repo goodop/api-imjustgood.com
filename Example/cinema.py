@@ -18,7 +18,7 @@ number = 0
 select_ = 1
 cinema = data["result"]["data"]
 list_cinema = [o for o in cinema]
-track = cinema[list_cinema[select_-1]]
+track = list_cinema[select_-1]
 result = "{}".format(track["cinema"])
 result += "\n{}".format(track["address"])
 result += "\n\nNow playing :"
@@ -32,10 +32,10 @@ print(result)
 number = 0
 select_one = 1
 select_two = 1
-shotime = ""
+showtime = ""
 cinema = data["result"]["data"]
 list_cinema = [o for o in cinema]
-track = cinema[list_cinema[select_one-1]]
+track = list_cinema[select_one-1]
 list_track = [y for y in track["nowPlaying"]]
 movies = list_track[select_two-1]
 for x in movies["showtime"]:
