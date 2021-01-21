@@ -6,7 +6,7 @@ text = "mengagumkan" # example text
 data = media.translate(lang,text)
 
 # Get attributes
-result = "{}".format(data["result"]["translate"])
+result = data["result"]["translate"]
 print(result)
 
 # Get JSON results
