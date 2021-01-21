@@ -1,10 +1,8 @@
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-
 post_url = "https://instagram.com/p/CJtqfEbhpjO/"
 data = media.instapost(post_url)
-number = 0
 
 result = "Instagram Post"
 result += "\nUsername : {}".format(data["result"]["username"])
@@ -13,6 +11,8 @@ result += "\nCreated : {}".format(data["result"]["created"])
 result += "\nCaption : {}".format(data["result"]["caption"])
 result += "\n\nPicture :\n{}".format(data["result"]["picture"])
 result += "\n\nMedia Post"
+
+number = 0
 for a in data["result"]["postData"]:
     number += 1
     if a["type"] == "image":
