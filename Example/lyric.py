@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-query = "crawling"
+query = "crawling" # example query
 data = media.lyric(query)
 
 result = "Lyric Finder"
