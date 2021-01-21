@@ -2,7 +2,7 @@ import json, requests
 
 apikey = "YOUR_APIKEY_HERE"
 host = "https://api.imjustgood.com/status?apikey={}".format(apikey)
-data = json.loads(requests.get(url).text)
+data = json.loads(requests.get(host).text)
 
 result = "Apikey Status"
 result += "\nID : {}".format(data["result"]["id"])
