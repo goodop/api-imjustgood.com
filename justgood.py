@@ -38,20 +38,20 @@ class imjustgood(threading.Thread):
 
     """
        Usage:
+         @text = text
+         @query = query
+         @name = name
+         @url = link url
+         @imageUrl = link url image
+         @userId = social id platform
+         @chapterId = chapter id manga
          @key = apikey code
-         @text = query string
-         @query = query string
-         @name = query string
-         @url = url post
-         @imageUrl = url image
-         @userId = social id
-         @chapterId = chapter id of manga
-         @lang = country code | you can check here >> https://api.imjustgood.com/language/code
          @code = city code
          @city = city name | eg: jakarta
          @sign = zodiac name | eg: aries
          @date = date-month-year | eg: 17-08-1945
-         @channnel = station of television         
+         @channnel = channel television         
+         @lang = country code | check here >> https://api.imjustgood.com/language/code
     """
 
     def youtube(self, query):
