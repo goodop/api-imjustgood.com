@@ -4,13 +4,10 @@ media = imjustgood("YOUR_APIKEY_HERE")
 userId = "avamax"
 data = media.joox(userId)
 
-
 # -- Get Profile Attributes
-
 result = "Smule Profile"
 result += "\nUsername : {}".format(data["result"]["username"])
 result += "\nAvatar : {}".format(data["result"]["avatar"])
-
 number = 0
 result += "\n\nRecording : "
 for a in data["result"]["recording"]:
@@ -18,17 +15,13 @@ for a in data["result"]["recording"]:
     result += "\n{}. {}".format(number, a["title"])
 total = len(data["result"]["recording"])
 result += "Total {} Recording.".format(total)
-
 print(result)
 
-
 # -- Get Recording Attributes
-
 select_ = 1
 recording = data["result"]["recording"]
 list_recording = [a for a in recording]
 track = recording[list_recording[select_-1]]
-
 result = "Title : {}".format(track["title"])
 result += "\nArtist : {}".format(track["artist"])
 result += "\nType : {}".format(track["type"])
@@ -42,5 +35,4 @@ if track["type"] == "audio":
     result += "\n\Mp3 :\n{}".format(track["mp3Url"])
 if track["type"] == "video":
     result += "\n\Mp4 :\n{}".format(track["mp4Url"])
-
 print(result)
