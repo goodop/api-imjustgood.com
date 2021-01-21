@@ -18,7 +18,7 @@ result += "Total {} Recording.".format(total)
 print(result)
 
 # Get recording attributes
-select_ = 1
+select_ = 1 # number of recording
 recording = data["result"]["recording"]
 list_recording = [a for a in recording]
 track = list_recording[select_-1]
