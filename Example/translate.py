@@ -1,10 +1,13 @@
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-lang = "en" # example coutry code
+lang = "en" # example country code , more country code here >> https://api.imjustgood.com/language/code
 text = "mengagumkan" # example text
 data = media.translate(lang,text)
+
+# Get attributes
 result = "{}".format(data["result"]["translate"])
 print(result)
 
-# more country code here >> https://api.imjustgood.com/language/code
+# Get JSON results
+print(data)
