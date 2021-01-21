@@ -10,12 +10,12 @@ result += "\nFullname : {}".format(data["result"]["fullname"])
 result += "\nCreated : {}".format(data["result"]["created"])
 result += "\nCaption : {}".format(data["result"]["caption"])
 result += "\n\nPicture :\n{}".format(data["result"]["picture"])
-result += "\n\nMedia Post :\n{}".format(data["result"]["picture"])
+result += "\n\nMedia Post"
 for a in data["result"]["postData"]:
     number += 1
     if a["type"] == "image":
        result += "\n{}. Image Url : {}".format(number, a["postUrl"])
     if a["type"] == "video":
        result += "\n{}. Video Url : {}".format(number, a["postUrl"])
-       result += "\n    Video Poster : {}".format(number, a["poster"])
+       result += "\n    Poster : {}".format(number, a["poster"])
 print(result)
