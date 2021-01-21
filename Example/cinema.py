@@ -2,7 +2,7 @@ from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
 city = "garut" # example city name
-data = media.dick()
+data = media.cinema(city)
 
 # Get cinema attributes
 result = "Cinema 21"
