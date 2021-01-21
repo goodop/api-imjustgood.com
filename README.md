@@ -50,42 +50,38 @@ Response results
 
 Get certain attributes
 ```
->>> result = "Username : " + data["result"]["username"]
->>> print(result)
-Username : the.autobots_corp
-
->>> result = "Fullname : " + data["result"]["fullname"]
->>> print(result)
-Fullname : The Autobots Corporation
-
->>> result = "Created on : " + data["result"]["created"]
->>> print(result)
-Created on : 2 days ago
-
->>> result = "Caption : " + data["result"]["caption"]
->>> print(result)
-Caption : Get Started
+>>> username = data["result"]["username"]
+>>> print(username)
+the.autobots_corp
+```
+```
+>>> fullname = data["result"]["fullname"]
+>>> print(fullname)
+The Autobots Corporation
+```
+```
+>>> created = data["result"]["created"]
+>>> print(created)
+2 days ago
+```
+```
+>>> caption = data["result"]["caption"]
+>>> print(caption)
+Get Started
 api.imjustgood.com
 .
 #imjustgood #tac #theautobotscorp
-
->>> result = "Picture URL :\n" + data["result"]["picture"]
->>> print(result)
-Picture URL :
+```
+```
+>>> picture = data["result"]["picture"]
+>>> print(picture)
 https://scontent-sin6-1.cdninstagram.com/v/t51.2885-19/s150x150/135785550_234471278085178_3734782670290828910_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_ohc=HQdOrvJcYNYAX-g_hAo&tp=1&oh=4780e9fa82b62dd71356498dfed7c362&oe=6022085E
-
->>> result = "Media Post"
+```
+```
 >>> for a in data["result"]["postData"]:
-...     if a["type"] == "image":
-...        result += "\nImage URL: " + a["postUrl"]
-...     if a["type"] == "video":
-...        result += "\nVideo URL : " + a["postUrl"]
-...        result += "\nVideo Poster : " + a["poster"]
->>> print(result)
-Media Post
-Image URL : https://scontent-sin6-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/135665982_715565716018895_1563117747618145065_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=111&_nc_ohc=A0n5IQVkjiAAX8VxJAr&tp=1&oh=427134cb92b3ce8ed9179dab92482ad2&oe=60232E2A
-Video URL : https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083_6874742578521195210_n.mp4?_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_cat=103&_nc_ohc=mEzo-awDsoYAX9wKFgP&oe=5FFBC9C2&oh=725ceccf6e4668be7b8a4be70afbd7aa
-Video Poster : https://scontent-sin6-3.cdninstagram.com/v/t51.2885-15/e35/135519816_2504157059888884_6711864394916943089_n.jpg?_nc_ht=scontent-sin6-3.cdninstagram.com&_nc_cat=104&_nc_ohc=yy5oCKYuc-sAX9JgZjA&tp=1&oh=d0d48a6eb5275bf296eb8e05128a3882&oe=5FFB7530
+...     print(a["postUrl"])
+https://scontent-sin6-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/135665982_715565716018895_1563117747618145065_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=111&_nc_ohc=A0n5IQVkjiAAX8VxJAr&tp=1&oh=427134cb92b3ce8ed9179dab92482ad2&oe=60232E2A
+https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083_6874742578521195210_n.mp4?_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_cat=103&_nc_ohc=mEzo-awDsoYAX9wKFgP&oe=5FFBC9C2&oh=725ceccf6e4668be7b8a4be70afbd7aa
 ```
 
 ### More Media Features
