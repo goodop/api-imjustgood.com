@@ -38,20 +38,22 @@ class imjustgood(threading.Thread):
 
     """
        Usage:
-         @text = string
-         @query = query of searching
-         @name = query name
-         @url = url of post
-         @imageUrl = url of image
-         @userId = id of social platform
-         @lang = country code | check here --> https://api.imjustgood.com/language/code
+         @key = apikey code
+         @text = query string
+         @query = query string
+         @name = query string
+         @url = url post
+         @imageUrl = url image
+         @userId = social id
+         @chapterId = chapter id of manga
+         @lang = country code | you can check here >> https://api.imjustgood.com/language/code
          @code = city code
          @city = city name | eg: jakarta
          @sign = zodiac name | eg: aries
          @date = date-month-year | eg: 17-08-1945
          @channnel = station of television         
     """
-    
+
     def youtube(self, query):
         return self.Get("/youtube="+query)
 
@@ -196,8 +198,8 @@ class imjustgood(threading.Thread):
     def cctvSearch(self, code):
         return self.Get("/cctv/search/id="+code)
 
-############# S E M P L E #################
-# from justgood import imjustgood
-# media = imjustgood("YOUR_APIKEY")
-# data = media.cinema("jakarta")
-# print(data)
+    def mangaSearch(self, query):
+        return self.Get("/manga/search="+query)
+
+    def mangaChapter(self, chapterId):
+        return self.Get("/manga/chapter="+chapterId)
