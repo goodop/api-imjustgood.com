@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-userId = "the.autobots_corp" # Example Instagram Id
+userId = "the.autobots_corp" # example instagram id
 data = media.instagram(userId)
 
 if data["result"]["private"] == False:
