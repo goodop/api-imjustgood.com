@@ -10,9 +10,9 @@ result += "\nFullname : {}".format(data["result"]["fullname"])
 result += "\nCreated : {}".format(data["result"]["created"])
 result += "\nCaption : {}".format(data["result"]["caption"])
 result += "\n\nPicture :\n{}".format(data["result"]["picture"])
-result += "\n\nMedia Post"
 
 number = 0
+result += "\n\nMedia Post"
 for a in data["result"]["postData"]:
     number += 1
     if a["type"] == "image":
