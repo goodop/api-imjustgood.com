@@ -4,7 +4,7 @@ media = imjustgood("YOUR_APIKEY_HERE")
 userId = "the.autobots_corp" # example instagram id
 data = media.instagram(userId)
 
-# Get certain attributes
+# Get attributes
 if data["result"]["private"] == False:
    private = "Disable"
 else:
