@@ -13,5 +13,5 @@ result += "\nExpired : {}".format(data["result"]["expired"])
 result += "\nRestart : {}".format(data["result"]["restart"])
 print(result)
 
-# Get all attributes
+# Get JSON results
 print(data)
