@@ -7,9 +7,7 @@ pip install justgood
 ```
 
 ### Example
-Here is how to use the module in your own python code.
-
-we choose <a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/instapost.py">instapost</a> media as an example.
+Here is how to use the module in your own python code. we choose <a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/instapost.py">instapost</a> media as an example.
 ```python
 from justgood import imjustgood
 ```
