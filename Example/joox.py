@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-query = "lathi"
+query = "lathi" # example query
 data = media.joox(query)
 
 result = "Joox Music"
