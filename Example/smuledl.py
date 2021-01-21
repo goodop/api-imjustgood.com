@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-post_url = "https://www.smule.com/p/1998769355_3429377039"
+post_url = "https://www.smule.com/p/1998769355_3429377039" # example smule url
 data = media.smuledl(query)
 
 result = "Smule Downloader"
