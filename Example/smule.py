@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-userId = "avamax"
+userId = "avamax" # example smule id
 data = media.smule(userId)
 
 # -- Get Profile Attributes
