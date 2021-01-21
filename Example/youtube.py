@@ -1,9 +1,10 @@
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-query = "despacito"
+query = "despacito" # example query
 data = media.youtube(query)
 
+# Get attributes
 result = "Youtube"
 result += "\nTitle : {}".format(data["result"]["title"])
 result += "\nAuthor : {}".format(data["result"]["author"])
@@ -13,5 +14,7 @@ result += "\n\nThumbnail :\n{}".format(data["result"]["thumbnail"])
 result += "\n\nAudio :\n{}".format(data["result"]["audioUrl"])
 result += "\n\nVideo :\n{}".format(data["result"]["videoUrl"])
 result += "\n\nPage : {}".format(data["result"]["pageUrl"])
-
 print(result)
+
+# Get JSON results
+print(data)
