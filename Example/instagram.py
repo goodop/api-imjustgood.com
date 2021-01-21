@@ -28,5 +28,5 @@ if data["result"]["lastpost"] != []:
         result += "\n    Page : {}".format(a["page"])
 print(result)
 
-# Get JSON result
+# Get JSON results
 print(data)
