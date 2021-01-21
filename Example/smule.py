@@ -4,7 +4,7 @@ media = imjustgood("YOUR_APIKEY_HERE")
 userId = "avamax" # example smule id
 data = media.smule(userId)
 
-# -- Get Profile Attributes
+# Get profile attributes
 result = "Smule Profile"
 result += "\nUsername : {}".format(data["result"]["username"])
 result += "\nAvatar : {}".format(data["result"]["avatar"])
@@ -17,7 +17,7 @@ total = len(data["result"]["recording"])
 result += "Total {} Recording.".format(total)
 print(result)
 
-# -- Get Recording Attributes
+# Get recording attributes
 select_ = 1
 recording = data["result"]["recording"]
 list_recording = [a for a in recording]
@@ -36,3 +36,6 @@ if track["type"] == "audio":
 if track["type"] == "video":
     result += "\n\Mp4 :\n{}".format(track["mp4Url"])
 print(result)
+
+# Get JSON results
+print(data)
