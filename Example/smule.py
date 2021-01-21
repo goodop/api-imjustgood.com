@@ -2,7 +2,7 @@ from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
 userId = "avamax"
-data = media.joox(userId)
+data = media.smule(userId)
 
 # -- Get Profile Attributes
 result = "Smule Profile"
