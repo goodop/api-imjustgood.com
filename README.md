@@ -10,9 +10,7 @@ pip install justgood
 Here is how to use the module in your own python code. we choose <a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/instapost.py">instapost</a> media as an example.
 ```python
 from justgood import imjustgood
-```
 
-```python
 media = imjustgood("YOUR_APIKEY_HERE")
 post_url = "https://instagram.com/p/CJtqfEbhpjO/"
 data = media.instapost(post_url)
@@ -51,31 +49,26 @@ Get certain attributes
 >>> username = data["result"]["username"]
 >>> print(username)
 the.autobots_corp
-```
-```
+
 >>> fullname = data["result"]["fullname"]
 >>> print(fullname)
 The Autobots Corporation
-```
-```
+
 >>> created = data["result"]["created"]
 >>> print(created)
 2 days ago
-```
-```
+
 >>> caption = data["result"]["caption"]
 >>> print(caption)
 Get Started
 api.imjustgood.com
 .
 #imjustgood #tac #theautobotscorp
-```
-```
+
 >>> picture = data["result"]["picture"]
 >>> print(picture)
 https://scontent-sin6-1.cdninstagram.com/v/t51.2885-19/s150x150/135785550_234471278085178_3734782670290828910_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_ohc=HQdOrvJcYNYAX-g_hAo&tp=1&oh=4780e9fa82b62dd71356498dfed7c362&oe=6022085E
-```
-```
+
 >>> for a in data["result"]["postData"]:
 ...     print(a["postUrl"])
 https://scontent-sin6-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/135665982_715565716018895_1563117747618145065_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=111&_nc_ohc=A0n5IQVkjiAAX8VxJAr&tp=1&oh=427134cb92b3ce8ed9179dab92482ad2&oe=60232E2A
