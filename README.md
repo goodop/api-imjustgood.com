@@ -12,7 +12,6 @@ Here is how to use the module in your own python code. we choose <a href="https:
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-
 post_url = "https://instagram.com/p/CJtqfEbhpjO/"
 data = media.instapost(post_url)
 
