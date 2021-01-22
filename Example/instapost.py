@@ -19,7 +19,7 @@ for a in data["result"]["postData"]:
        result += "\n{}. Image Url : {}".format(number, a["postUrl"])
     if a["type"] == "video":
        result += "\n{}. Video Url : {}".format(number, a["postUrl"])
-       result += "\n    Poster : {}".format(number, a["poster"])
+       result += "\nPoster Url: {}".format(a["poster"])
 print(result)
 
 # Get JSON results
