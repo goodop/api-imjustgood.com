@@ -13,7 +13,7 @@ result += "\nCountry : {}".format(stars["country"])
 result += "\nHeight : {}".format(stars["height"])
 result += "\nBreast : {}".format(stars["breast"])
 result += "\nTits : {}".format(stars["tits"])
-result += "\n\nImage URL :\n{}".format(data["result"]["image"])
+result += "\n\nImage URL :\n{}".format(stars["image"])
 print(result)
 
 # Get JSON results
