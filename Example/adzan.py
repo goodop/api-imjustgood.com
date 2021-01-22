@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-city = "palembang" # city name
+city = "palembang" # example city name
 data = media.adzan(city)
 
 # Get attributes
