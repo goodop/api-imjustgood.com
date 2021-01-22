@@ -1,7 +1,7 @@
 ### Documentation
 Full documentation available on https://api.imjustgood.com
 
-### Media Features
+### More Media
 <table>
     <tbody>
         <tr>
@@ -10,11 +10,231 @@ Full documentation available on https://api.imjustgood.com
         </tr>
         <tr>
             <td>Youtube Search</td>
-            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/apikey_status.py">example</a></td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/youtube.py">example</a></td>
         </tr>
         <tr>
             <td>Youtube Downloader</td>
-            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/apikey_status.py">example</a></td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/youtubedl.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Joox Music</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/joox.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Lyric Finder</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/lyric.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Smule Profile</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/smule.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Smule Downloader</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/smuledl.py">example</a></td>
+        </tr>
+        <tr>
+            <td>TikTok Profile</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/tiktok.py">example</a></td>
+        </tr>
+        <tr>
+            <td>TikTok Downloader</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/tiktokdl.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Instagram Profile</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/instagram.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Instagram Post</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/instapost.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Instagram Story</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/instastory.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Twitter Profile</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/twitter.py">example</a></td>
+        </tr>
+        <tr>
+            <td>GitHub Profile</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/github.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Google Playstore</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/playstore.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Google Translate</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/translate.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Google Image</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/images.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Wallpaper HD</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/wallpaper.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Porn Videos</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/porn.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Pornstar</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/pornstar.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Hentai</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/hentai.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Kamasutra</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/kamasutra.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Dick Analyze</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/dick.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Tits Analyze</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/tits.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Vagina Analyze</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/vagina.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Meme Generator</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/meme.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Movie Review</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/movie.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Movie Quotes</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/movie_quotes.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Cinema 21</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/cinema.py">example</a></td>
+        </tr>
+        <tr>
+            <td>TinyUrl</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/tinyurl.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Bit.ly</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/bitly.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Top News</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/topnews.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Wikipedia</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/wikipedia.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Urban Dictionary</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/urban.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Zodiac Daily</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/zodiac.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Info Waktu Sholat</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/adzan.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Info Cuaca Dunia</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/cuaca.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Info Gempa BMKG</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/bmkg.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Info Corona Virus</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/corona.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Info Lowongan Kerja</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/karir.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Info Phone Cellular</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/cellular.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Info Tanggal Lahir</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/lahir.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Info Tanggal Jadian</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/jadian.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Arti Nama</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/nama.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Arti Mimpi</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/mimpi.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Acara TV Saat Ini</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/acaratv.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Acara TV Stasiun</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/acaratv_channel.py">example</a></td>
+        </tr>
+        <tr>
+            <td>CCTV Camera Code</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/cctv_code.py">example</a></td>
+        </tr>
+        <tr>
+            <td>CCTV Camera Search</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/cctv_search.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Manga Search</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/manga_search.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Manga Chapter</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/manga_chapter.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Calculator</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/calc.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Languages Code</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/langcode.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Check IP Address</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/check_ip.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Binary Encode</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/binary_encode.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Binary Decode</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/binary_decode.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Base64 Encode</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/b64encode.py">example</a></td>
+        </tr>
+        <tr>
+            <td>Base64 Decode</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/b64decode.py">example</a></td>
         </tr>
     </tbody>
 </table>
