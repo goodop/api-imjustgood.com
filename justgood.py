@@ -15,12 +15,9 @@ class imjustgood(threading.Thread):
             headers = {**headers, **self.headers}
         else:
             headers = self.headers
-        try:  
-            req = json.loads(self.session.get(self.host+data,headers=headers).text)
-        except:
-            raise Exception("Under Maintenance.")
+        req = json.loads(self.session.get(self.host+data,headers=headers).text)
         if req["status"] != 200:
-            raise Exception(str(req))
+           raise Exception(req["message"])
         return req
 
     def Post(self, path, headers=None, data=None, files=None, jhon=None):
@@ -28,12 +25,9 @@ class imjustgood(threading.Thread):
             headers = {**headers, **self.headers}
         else:
             headers = self.headers
-        try:
-            req = json.loads(self.session.post(self.host+path,headers=headers,data=data,files=files,json=jhon).text)
-        except:
-            raise Exception("Under Maintenance.")
+        req = json.loads(self.session.post(self.host+path,headers=headers,data=data,files=files,json=jhon).text)
         if req["status"] != 200:
-            raise Exception(str(req))
+           raise Exception(req["message"])
         return req
 
     """
