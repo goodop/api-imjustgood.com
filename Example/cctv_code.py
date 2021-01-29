@@ -9,7 +9,7 @@ for a in data["result"]["available"]:
     result += "\n{} {}".format(a,data["result"]["available"][a])
 result += "\n\nCCTV Active"
 for b in data["result"]["active"]:
-    result += "\n{} {}".format(a,data["result"]["active"][a])
+    result += "\n{} {}".format(b,data["result"]["active"][b])
 print(result)
 
 # Get JSON results
