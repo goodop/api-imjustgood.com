@@ -15,6 +15,7 @@ if data["result"]["timeline"] != []:
    number = 0
    result += "\n\nMedia Post :"
    for a in data["result"]["timeline"]:
+       number += 1
        if a["type"] == "image":
           result += "\n{}. {}".format(number,a["url"])
        if a["type"] == "video":
