@@ -197,3 +197,6 @@ class imjustgood(threading.Thread):
 
     def mangaChapter(self, chapterId):
         return self.Get("/manga/chapter="+chapterId)
+
+    def timeline(self, url):
+        return self.Get("/timeline="+url)
