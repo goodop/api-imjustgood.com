@@ -312,6 +312,10 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
             <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/b64decode.py">Example</a></td>
         </tr>
         <tr>
+            <td>LINE Timeline</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/line_timeline.py">Example</a></td>
+        </tr>
+        <tr>
             <td>LINE APP VERSION</td>
             <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/line_version.py">Example</a></td>
         </tr>
