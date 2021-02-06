@@ -200,3 +200,6 @@ class imjustgood(threading.Thread):
 
     def timeline(self, url):
         return self.Get("/timeline="+url)
+
+    def resi(self, query, code):
+        return self.Get("/resi/"+query+"="+code)
