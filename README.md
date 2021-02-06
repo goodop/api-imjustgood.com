@@ -240,6 +240,10 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
             <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/karir.py">Example</a></td>
         </tr>
         <tr>
+            <td>Info Resi Pengiriman</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/resi.py">Example</a></td>
+        </tr>
+        <tr>
             <td>Info Phone Cellular</td>
             <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/cellular.py">Example</a></td>
         </tr>
@@ -322,4 +326,4 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
     </tbody>
 </table>
 
-Join our forum discussion for more information <a href="https://bit.ly/2K5Lbx4">click here</a>
+Join our forum for more information <a href="https://bit.ly/2K5Lbx4">click here</a>
