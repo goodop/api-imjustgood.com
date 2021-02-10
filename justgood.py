@@ -121,7 +121,7 @@ class imjustgood(threading.Thread):
         return self.Get("/vagina")
 
     def meme(self, text1, text2, imageUrl):
-        return self.Get("/meme/"+text1+"/"+text2+"/"+"url="+imageUrl)
+        return self.Get("/meme/"+text1+"/"+text2+"/url="+imageUrl)
 
     def movie(self, query):
         return self.Get("/movie="+query)
@@ -203,3 +203,6 @@ class imjustgood(threading.Thread):
 
     def resi(self, query, code):
         return self.Get("/resi/"+query+"="+code)
+
+    def resi(self, url):
+        return self.Get("/screenshot?url="+url)
