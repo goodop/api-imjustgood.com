@@ -320,10 +320,16 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
             <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/line_timeline.py">Example</a></td>
         </tr>
         <tr>
-            <td>LINE APP VERSION</td>
+            <td>LINE App Version</td>
             <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/line_version.py">Example</a></td>
+        </tr>
+        <tr>
+            <td>Screenshot Web</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/screenshot.py">Example</a></td>
         </tr>
     </tbody>
 </table>
 
-Join our forum for more information <a href="https://bit.ly/2K5Lbx4">click here</a>
+### Contact us
+* <a href="https://imjustgood.com/team">Imjustgood Team</a>
+* <a href="https://bit.ly/2K5Lbx4">LINE Openchat Room</a>
