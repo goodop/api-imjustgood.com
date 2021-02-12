@@ -12,8 +12,9 @@ result += "\nBiography : {}".format(data["result"]["biography"])
 result += "\nFollowers : {}".format(data["result"]["followers"])
 result += "\nFollowing : {}".format(data["result"]["following"])
 result += "\nLikes : {}".format(data["result"]["likes"])
-result += "\nPicture : {}".format(data["result"]["pictureUrl"])
 result += "\nProfile : {}".format(data["result"]["profileUrl"])
+result += "\nPicture : {}".format(data["result"]["pictureUrl"])
+result += "\nLast Video : {}".format(data["result"]["lastpost"])
 print(result)
 
 # Get JSON results
