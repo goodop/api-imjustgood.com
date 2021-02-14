@@ -204,5 +204,5 @@ class imjustgood(threading.Thread):
     def resi(self, query, code):
         return self.Get("/resi/"+query+"="+code)
 
-    def resi(self, url):
+    def screenshot(self, url):
         return self.Get("/screenshot?url="+url)
