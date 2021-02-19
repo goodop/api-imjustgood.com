@@ -327,6 +327,10 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
             <td>Screenshot Web</td>
             <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/screenshot.py">Example</a></td>
         </tr>
+        <tr>
+            <td>ASCII Text</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/ascii.py">Example</a></td>
+        </tr>
     </tbody>
 </table>
 
