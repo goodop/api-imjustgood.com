@@ -10,12 +10,12 @@ class imjustgood(threading.Thread):
     def PrintJson(self, jhon):
         print(json.dumps(jhon, indent=4, sort_keys=True))
 
-    def Get(self, data, headers=None):
+    def Get(self, path, headers=None):
         if headers:
             headers = {**headers, **self.headers}
         else:
             headers = self.headers
-        req = json.loads(self.session.get(self.host+data,headers=headers).text)
+        req = json.loads(self.session.get(self.host+path,headers=headers).text)
         if req["status"] != 200:
            raise Exception(req["message"])
         return req
@@ -37,6 +37,7 @@ class imjustgood(threading.Thread):
          @name = name
          @url = link url
          @imageUrl = link url image
+         @imageId = base64 encode
          @userId = social id platform
          @chapterId = chapter id manga
          @key = apikey code
@@ -45,7 +46,7 @@ class imjustgood(threading.Thread):
          @sign = zodiac name | eg: aries
          @date = date-month-year | eg: 17-08-1945
          @channnel = channel television         
-         @lang = country code | check here >> https://api.imjustgood.com/language/code
+         @lang = country code. check here >> https://api.imjustgood.com/language/code
     """
 
     def youtube(self, query):
@@ -206,3 +207,6 @@ class imjustgood(threading.Thread):
 
     def screenshot(self, url):
         return self.Get("/screenshot?url="+url)
+
+    def imgurl(self, imageId):
+        return self.Post("/imgurl",data={"image": imageId})
