@@ -1,6 +1,6 @@
 ### Api.imjustgood.com
+API Media service to make your code more better.
 
-Sample request for api.imjustgood.com
 <p>
 <img alt="PyPI" src="https://img.shields.io/pypi/v/justgood" style="max-width:100%;">
 <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/JUSTGOOD?color=orange" style="max-width:100%;">
