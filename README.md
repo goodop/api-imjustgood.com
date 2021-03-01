@@ -1,10 +1,10 @@
 ## API.IMJUSTGOOD.COM
 API Media service to make your code more better.
 <p>
-<img alt="PyPI" src="https://img.shields.io/pypi/v/justgood" style="max-width:100%;">
-<img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/JUSTGOOD?color=orange" style="max-width:100%;">
-<img alt="Status" src="https://img.shields.io/static/v1?label=status&message=online&color=green style="max-width:100%;">
-<img alt="GitHub" src="https://img.shields.io/github/license/goodop/api-imjustgood.com" style="max-width:100%;">
+    <img alt="PyPI" src="https://img.shields.io/pypi/v/justgood" style="max-width:100%;">
+    <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/JUSTGOOD?color=orange" style="max-width:100%;">
+    <img alt="Status" src="https://img.shields.io/static/v1?label=status&message=online&color=green" style="max-width:100%;">
+    <img alt="GitHub" src="https://img.shields.io/github/license/goodop/api-imjustgood.com" style="max-width:100%;">
 </p>
 
 
@@ -342,7 +342,11 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
             <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/ascii.py">Example</a></td>
         </tr>
         <tr>
-            <td>Custom URL</td>
+            <td>Fancy Text</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/fancy.py">Example</a></td>
+        </tr>
+        <tr>
+            <td>Customize URL</td>
             <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/customlink.py">Example</a></td>
         </tr>
         <tr>
