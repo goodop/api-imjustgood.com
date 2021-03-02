@@ -32,20 +32,19 @@ class imjustgood(threading.Thread):
 
     """
        Usage:
-         @text = text
-         @query = query
-         @name = name
-         @url = link url
-         @imageUrl = link url image
-         @imageId = base64 encode
-         @userId = social id platform
-         @chapterId = chapter id manga
-         @key = apikey code
+         @text = string
+         @name = string
+         @query = string
+         @url = url string
+         @imageUrl = url image
+         @path = file location
+         @userId = social user id
+         @chapterId = manga chapter
          @code = city code
          @city = city name | eg: jakarta
-         @sign = zodiac name | eg: aries
+         @sign = zodiac sign | eg: aries
          @date = date-month-year | eg: 17-08-1945
-         @channnel = channel television         
+         @channnel = television channel         
          @lang = country code. check here >> https://api.imjustgood.com/language/code
     """
 
@@ -208,5 +207,5 @@ class imjustgood(threading.Thread):
     def screenshot(self, url):
         return self.Get("/screenshot?url="+url)
 
-    def imgurl(self, imageId):
-        return self.Post("/imgurl",data={"image": imageId})
+    def imgurl(self, path):
+        return self.Post("/imgurl",files={"file": open(path,"rb")})
