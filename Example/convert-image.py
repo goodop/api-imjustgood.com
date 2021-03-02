@@ -1,12 +1,8 @@
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-image = "R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" # Required base64 data (up to 32 MB)
+image = "Image/logo.jpg" # example your image path
 data = media.imgurl(image)
+result = data["result"]
 
-# Get attributes
-result = "Image URL : {}".format(data["result"])
 print(result)
-
-# Get JSON results
-print(data)
