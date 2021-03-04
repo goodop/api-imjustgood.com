@@ -150,6 +150,14 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
             <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/twitter.py">Example</a></td>
         </tr>
         <tr>
+            <td>Twitter Downloader</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/twitter-dl.py">Example</a></td>
+        </tr>
+        <tr>
+            <td>Facebook Downloader</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/facebook-dl.py">Example</a></td>
+        </tr>
+        <tr>
             <td>GitHub Profile</td>
             <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/github.py">Example</a></td>
         </tr>
@@ -220,6 +228,10 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
         <tr>
             <td>Bit.ly</td>
             <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/bitly.py">Example</a></td>
+        </tr>
+        <tr>
+            <td>KBBI</td>
+            <td><a href="https://github.com/goodop/api-imjustgood.com/blob/main/Example/kbbi.py">Example</a></td>
         </tr>
         <tr>
             <td>Top News</td>
@@ -364,6 +376,6 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
     </tbody>
 </table>
 
-### Contact us
+### Contact us here
 * <a href="https://imjustgood.com/team">Imjustgood Team</a>
 * <a href="https://bit.ly/2K5Lbx4">LINE Openchat Room</a>
