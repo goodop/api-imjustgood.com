@@ -83,7 +83,13 @@ class imjustgood(threading.Thread):
 
     def twitter(self, userId):
         return self.Get("/twitter="+userId)
-    
+
+    def twitterdl(self, url):
+        return self.Get("/twitter/video?url="+url)
+
+    def facebookdl(self, url):
+        return self.Get("/facebook/video?url="+url)
+
     def github(self, userId):
         return self.Get("/github="+userId)
 
@@ -137,6 +143,9 @@ class imjustgood(threading.Thread):
 
     def bitly(self, url):
         return self.Get("/bitly="+url)
+
+    def kbbi(self, query):
+        return self.Get("/kbbi="+query)
 
     def topnews(self):
         return self.Get("/topnews")
