@@ -1,8 +1,9 @@
-<pre>
+## API.IMJUSTGOOD.COM
+```
 █ █▀▄▀█   █ █ █ █▀ ▀█▀ █▀▀ █▀█ █▀█ █▀▄
 █ █ ▀ █ █▄█ █▄█ ▄█  █  █▄█ █▄█ █▄█ █▄▀
-api media service to make your CODE more BETTER
-</pre>
+api media service to make your code more better.
+```
 <p>
     <a href="http://pypi.org/project/justgood" rel="nofollow">
         <img alt="PyPI" src="https://img.shields.io/pypi/v/justgood?label=PyPI" style="max-width:100%;">
@@ -18,12 +19,11 @@ api media service to make your CODE more BETTER
     </a>
 </p>
 
-
 ### Documentation
 Full documentation available on https://api.imjustgood.com
 
 ### Installation
-```python
+```
 pip install justgood
 ```
 
@@ -82,9 +82,7 @@ The Autobots Corporation
 
 >>> caption = data["result"]["caption"]
 >>> print(caption)
-Get Started
-api.imjustgood.com
-.
+Get Started : api.imjustgood.com
 #imjustgood #tac #theautobotscorp
 
 >>> picture = data["result"]["picture"]
