@@ -218,3 +218,6 @@ class imjustgood(threading.Thread):
 
     def imgurl(self, path):
         return self.Post("/imgurl",files={"file": open(path,"rb")})
+
+    def gif(self, query):
+        return self.Get("/gif="+query)
