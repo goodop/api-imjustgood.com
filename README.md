@@ -370,6 +370,10 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/customlink.py">Example</a></td>
         </tr>
         <tr>
+            <td>GIF Search</td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/gif.py">Example</a></td>
+        </tr>
+        <tr>
             <td>Convert Image to URL</td>
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/convert-image.py">Example</a></td>
         </tr>
