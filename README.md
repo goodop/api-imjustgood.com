@@ -1,5 +1,9 @@
 ## API.IMJUSTGOOD.COM
-API Media service to make your code more better.
+```
+█ █▀▄▀█   █ █ █ █▀ ▀█▀ █▀▀ █▀█ █▀█ █▀▄
+█ █ ▀ █ █▄█ █▄█ ▄█  █  █▄█ █▄█ █▄█ █▄▀
+api media service to make your code more better.
+```
 <p>
     <a href="http://pypi.org/project/justgood" rel="nofollow">
         <img alt="PyPI" src="https://img.shields.io/pypi/v/justgood?label=PyPI" style="max-width:100%;">
@@ -30,8 +34,8 @@ Here is how to use the module in your own python code. we choose <a href="https:
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-post_url = "https://instagram.com/p/CJtqfEbhpjO/"
-data = media.instapost(post_url)
+url = "https://instagram.com/p/CJtqfEbhpjO/"
+data = media.instapost(url)
 
 print(data)
 ```
@@ -41,7 +45,7 @@ Response results
 {
     "creator": "ImJustGood", 
     "result": {
-        "caption": "Get Started\napi.imjustgood.com\n.\n#imjustgood #tac #theautobotscorp", 
+        "caption": "Get Started : api.imjustgood.com\n#imjustgood #tac #theautobotscorp", 
         "created": "2 days ago", 
         "fullname": "The Autobots Corporation", 
         "picture": "https://scontent-sin6-1.cdninstagram.com/v/t51.2885-19/s150x150/135785550_234471278085178_3734782670290828910_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_ohc=HQdOrvJcYNYAX-g_hAo&tp=1&oh=4780e9fa82b62dd71356498dfed7c362&oe=6022085E", 
@@ -79,9 +83,7 @@ The Autobots Corporation
 
 >>> caption = data["result"]["caption"]
 >>> print(caption)
-Get Started
-api.imjustgood.com
-.
+Get Started : api.imjustgood.com
 #imjustgood #tac #theautobotscorp
 
 >>> picture = data["result"]["picture"]
