@@ -1,5 +1,9 @@
 ## API.IMJUSTGOOD.COM
-API Media service to make your code more better.
+<pre>
+    █ █▀▄▀█   █ █ █ █▀ ▀█▀ █▀▀ █▀█ █▀█ █▀▄
+    █ █ ▀ █ █▄█ █▄█ ▄█  █  █▄█ █▄█ █▄█ █▄▀
+api media service to make your CODE more BETTER
+</pre>
 <p>
     <a href="http://pypi.org/project/justgood" rel="nofollow">
         <img alt="PyPI" src="https://img.shields.io/pypi/v/justgood?label=PyPI" style="max-width:100%;">
