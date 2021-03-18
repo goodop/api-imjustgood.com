@@ -1,9 +1,14 @@
 from justgood import imjustgood
 
 media = imjustgood("YOUR_APIKEY_HERE")
-url_post = "https://www.tiktok.com/@mamayukakuroyanagi/video/6810023518508518657" # example tiktok video url
+url = "https://www.tiktok.com/@mamayukakuroyanagi/video/6810023518508518657" # example tiktok post url
+data = media.tiktokdl(url)
 
-data = media.tiktokdl(url_post)
-video = data["result"]["videoUrl"]
+# Get attributes
+result = "TikTok Downloader"
+result += "\nWatermark : {}".format(data["result"]["watermark"])
+result += "\nNo watermark : {}".format(data["result"]["no_watermark"])
+print(result)
 
-print(video)
+# Get JSON results
+print(data)
