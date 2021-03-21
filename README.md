@@ -8,14 +8,11 @@ api media service to make your code more better.
     <a href="http://pypi.org/project/justgood" rel="nofollow">
         <img alt="PyPI" src="https://img.shields.io/pypi/v/justgood?label=PyPI" style="max-width:100%;">
     </a>
-    <a href="http://pypi.org/project/justgood" rel="nofollow">
-        <img alt="Python" src="https://img.shields.io/pypi/pyversions/justgood?color=red&label=Python" style="max-width:100%;">
-    </a>
     <a href="https://github.com/RendyTR/api.imjustgood.com" rel="nofollow">
-        <img alt="Update" src="https://img.shields.io/github/last-commit/goodop/api-imjustgood.com?color=green&label=Update" height="20" style="max-width:100%;">
+        <img alt="Update" src="https://img.shields.io/github/last-commit/goodop/api-imjustgood.com?color=red&label=Update" height="20" style="max-width:100%;">
     </a>
-    <a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/LICENSE" rel="nofollow">
-        <img alt="License" src="https://img.shields.io/github/license/goodop/api-imjustgood.com?color=green&label=Lincense" height="20" style="max-width:100%;">
+    <a href="https://github.com/RendyTR" rel="nofollow">
+        <img alt="Views" src="https://komarev.com/ghpvc/?username=RendyTR&color=brightgreen&label=Views" height="20" style="max-width:100%;">
     </a>
 </p>
 
