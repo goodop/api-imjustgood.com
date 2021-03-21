@@ -12,7 +12,7 @@ api media service to make your code more better.
         <img alt="Update" src="https://img.shields.io/github/last-commit/goodop/api-imjustgood.com?color=red&label=Update" height="20" style="max-width:100%;">
     </a>
     <a href="https://github.com/RendyTR" rel="nofollow">
-        <img alt="Views" src="https://komarev.com/ghpvc/?username=RendyTR&color=brightgreen&label=Views" height="20" style="max-width:100%;">
+        <img alt="Views" src="https://komarev.com/ghpvc/?username=RendyTR&color=green&label=Views" height="20" style="max-width:100%;">
     </a>
 </p>
 
