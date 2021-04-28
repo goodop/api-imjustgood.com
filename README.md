@@ -161,7 +161,7 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
         </tr>
         <tr>
             <td>LINE Secondary</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/lineqr.py">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/line_secondary.py">Example</a></td>
         </tr>
         <tr>
             <td>LINE Timeline</td>
