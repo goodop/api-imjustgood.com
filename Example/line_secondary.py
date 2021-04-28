@@ -15,7 +15,6 @@ timeour = 10
 
 qr_link = data["result"]["qr"]
 print(qr_link)
-
 if cert is None:
     for i in range(timeout):
         main = json.loads(requests.get(data["result"]["callback"]["pin"],headers=headers).text)
@@ -26,7 +25,6 @@ if cert is None:
             print(main["message"])
             break
         else:time.sleep(1)
-
 for i in range(timeout):
     main = json.loads(requests.get(data["result"]["callback"]["token"],headers=headers).text)
     if main["status"] == 200:
