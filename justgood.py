@@ -221,3 +221,6 @@ class imjustgood(threading.Thread):
 
     def gif(self, query):
         return self.Get("/gif="+query)
+
+    def search(self, query):
+        return self.Get("/search="+query)
