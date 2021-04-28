@@ -8,6 +8,7 @@ data = media.search(query)
 number = 0
 result = "Google Result :"
 for s in data["result"]:
+    number += 1
     result += "\n{}. {}".format(number,s["title"])
     result += "\n{}".format(s["url"])
 print(result)
