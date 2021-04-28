@@ -160,16 +160,32 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/github.py">Example</a></td>
         </tr>
         <tr>
+            <td>LINE Secondary</td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/lineqr.py">Example</a></td>
+        </tr>
+        <tr>
+            <td>LINE Timeline</td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/line_timeline.py">Example</a></td>
+        </tr>
+        <tr>
+            <td>LINE App Version</td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/line_version.py">Example</a></td>
+        </tr>
+        <tr>
+            <td>Google Search</td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/google_search.py">Example</a></td>
+        </tr>
+        <tr>
+            <td>Google Image</td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/images.py">Example</a></td>
+        </tr>
+        <tr>
             <td>Google Playstore</td>
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/playstore.py">Example</a></td>
         </tr>
         <tr>
             <td>Google Translate</td>
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/translate.py">Example</a></td>
-        </tr>
-        <tr>
-            <td>Google Image</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/images.py">Example</a></td>
         </tr>
         <tr>
             <td>Wallpaper HD</td>
@@ -342,14 +358,6 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
         <tr>
             <td>Base64 Decode</td>
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/b64decode.py">Example</a></td>
-        </tr>
-        <tr>
-            <td>LINE Timeline</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/line_timeline.py">Example</a></td>
-        </tr>
-        <tr>
-            <td>LINE App Version</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/line_version.py">Example</a></td>
         </tr>
         <tr>
             <td>Screenshot Web</td>
