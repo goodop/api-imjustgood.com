@@ -1,7 +1,7 @@
 import json, requests
 
 apikey = "YOUR_APIKEY_HERE"
-headers = {"user-agent": "Mozilla/5.0"}
+headers = {"user-agent": "Justgood/5.0"}
 host = "https://api.imjustgood.com/status?apikey={}".format(apikey)
 data = json.loads(requests.get(host,headers=headers).text)
 
