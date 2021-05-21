@@ -6,7 +6,7 @@ class imjustgood(threading.Thread):
         self.host = "https://api.imjustgood.com"
         self.headers = {
             "apikey": apikey,
-            "user-agent": "Mozilla/5.0"
+            "user-agent": "Justgood/5.0"
         }
         self.session = requests.Session()
 
