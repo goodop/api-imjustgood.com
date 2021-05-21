@@ -1,7 +1,8 @@
 import json, requests
 
 host = "https://api.imjustgood.com/line"
-data = json.loads(requests.get(host).text)
+headers = {"user-agent": "JustGood/5.0"}
+data = json.loads(requests.get(host,headers=headers).text)
 
 # Get attributes
 result = "LINE APP VERSION"
