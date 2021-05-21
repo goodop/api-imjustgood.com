@@ -1,8 +1,9 @@
 import json, requests
 
 ip_address = "8.8.8.8" # example ip address
+headers = {"user-agent": "Justgood/5.0"}
 host = "https://api.imjustgood.com/ip="+ip_address
-data = json.loads(requests.get(host).text)
+data = json.loads(requests.get(host,headers=headers).text)
 
 # Get attributes
 result = "Ip Address : {}".format(data["result"]["ip_address"])
