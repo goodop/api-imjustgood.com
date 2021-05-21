@@ -1,8 +1,9 @@
 import json, requests
 
 text = "imjustgood" # example your text
+headers = {"user-agent": "Justgood/5.0"}
 host = "https://api.imjustgood.com/fancy?text="+text
-data = json.loads(requests.get(host).text)
+data = json.loads(requests.get(host,headers=headers).text)
 
 # Get attributes
 result = ""
