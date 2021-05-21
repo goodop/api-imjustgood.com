@@ -4,7 +4,10 @@ class imjustgood(threading.Thread):
     def __init__(self, apikey):
         super(imjustgood, self).__init__()
         self.host = "https://api.imjustgood.com"
-        self.headers = {"apikey": apikey, "User-Agent":"Mozilla/5.0 (Linux; Android 9; cp3705A)"}
+        self.headers = {
+           "apikey": apikey,
+           "User-Agent":"Mozilla/5.0"
+        }
         self.session = requests.Session()
 
     def PrintJson(self, jhon):
