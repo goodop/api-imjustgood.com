@@ -6,12 +6,12 @@ class imjustgood(threading.Thread):
         self.host = "https://api.imjustgood.com"
         self.headers = {
             "apikey": apikey,
-            "user-agent": "Justgood/5.0"
+            "User-Agent": "Justgood/5.0"
         }
         self.session = requests.Session()
 
-    def PrintJson(self, jhon):
-        print(json.dumps(jhon, indent=4, sort_keys=True))
+    def GoodJson(self, data):
+        return f"{json.dumps(data, indent=4, sort_keys=True)}"
 
     def Get(self, path, headers=None):
         if headers:
@@ -227,3 +227,25 @@ class imjustgood(threading.Thread):
 
     def search(self, query):
         return self.Get("/search="+query)
+
+    def calc(self, query):
+        return self.Get("/calc="+query)
+
+    def check_ip(self, query):
+        return self.Get("/ip="+query)
+
+    def customlink(self, label, url):
+        headers = {"label": label, "url": url}
+        return self.Get("/custom/make", headers=headers)
+
+    def imagetext(self, query):
+        return self.Get("/imgtext?text="+query)
+
+    def watermark_image(self, imageUrl, iconUrl):
+        return self.Get("/watermark/image?image="+imageUrl+"&icon="+iconUrl)
+
+    def watermark_text(self, imageUrl, text):
+        return self.Get("/watermark/text?image="+imageUrl+"&text="+text)
+
+    def simisimi(self, query):
+        return self.Get("/simisimi?text="+query)
