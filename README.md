@@ -24,6 +24,11 @@ Full documentation available on https://api.imjustgood.com
 pip install justgood
 ```
 
+### Upgrade
+```
+pip install --upgrade justgood
+```
+
 ### Example
 Here is how to use the module in your own python code. we choose <a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/Example/instapost.py">instapost</a> media as an example.
 ```python
