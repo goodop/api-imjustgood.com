@@ -109,386 +109,386 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
         <tr>
             <td>Apikey Status</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L13">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L13">Example</a></td>
         </tr>
         <tr>
             <td>Youtube Search</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L23">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L23">Example</a></td>
         </tr>
         <tr>
             <td>Youtube Downloader</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L35">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L35">Example</a></td>
         </tr>
         <tr>
             <td>Joox Music</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L47">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L47">Example</a></td>
         </tr>
         <tr>
             <td>Lyric Finder</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L57">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L57">Example</a></td>
         </tr>
         <tr>
             <td>Smule Profile</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L64">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L64">Example</a></td>
         </tr>
         <tr>
             <td>Smule Downloader</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L106">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L106">Example</a></td>
         </tr>
         <tr>
             <td>TikTok Profile</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L117">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L117">Example</a></td>
         </tr>
         <tr>
             <td>TikTok Downloader</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L134">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L134">Example</a></td>
         </tr>
         <tr>
             <td>Instagram Profile</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L141">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L141">Example</a></td>
         </tr>
         <tr>
             <td>Instagram Post</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L168">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L168">Example</a></td>
         </tr>
         <tr>
             <td>Instagram Story</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L187">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L187">Example</a></td>
         </tr>
         <tr>
             <td>Twitter Profile</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L204">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L204">Example</a></td>
         </tr>
         <tr>
             <td>Twitter Downloader</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L216">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L216">Example</a></td>
         </tr>
         <tr>
             <td>Facebook Downloader</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L221">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L221">Example</a></td>
         </tr>
         <tr>
             <td>GitHub Profile</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L228">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L228">Example</a></td>
         </tr>
         <tr>
             <td>LINE Secondary</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L248">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L248">Example</a></td>
         </tr>
         <tr>
             <td>LINE Timeline</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L284">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L284">Example</a></td>
         </tr>
         <tr>
             <td>LINE App Version</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L303">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L303">Example</a></td>
         </tr>
         <tr>
             <td>Google Search</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L310">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L310">Example</a></td>
         </tr>
         <tr>
             <td>Google Image</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L320">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L320">Example</a></td>
         </tr>
         <tr>
             <td>Google Playstore</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L326">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L326">Example</a></td>
         </tr>
         <tr>
             <td>Google Translate</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L338">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L338">Example</a></td>
         </tr>
         <tr>
             <td>Wallpaper HD</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L352">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L352">Example</a></td>
         </tr>
         <tr>
             <td>Porn Videos</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L358">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L358">Example</a></td>
         </tr>
         <tr>
             <td>Pornstar</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L368">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L368">Example</a></td>
         </tr>
         <tr>
             <td>Hentai</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L384">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L384">Example</a></td>
         </tr>
         <tr>
             <td>Kamasutra</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L389">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L389">Example</a></td>
         </tr>
         <tr>
             <td>Dick Analyze</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L396">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L396">Example</a></td>
         </tr>
         <tr>
             <td>Tits Analyze</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L417">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L417">Example</a></td>
         </tr>
         <tr>
             <td>Vagina Analyze</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L406">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L406">Example</a></td>
         </tr>
         <tr>
             <td>Meme Generator</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L427">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L427">Example</a></td>
         </tr>
         <tr>
             <td>Movie Review</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L435">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L435">Example</a></td>
         </tr>
         <tr>
             <td>Movie Quotes</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L451">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L451">Example</a></td>
         </tr>
         <tr>
             <td>Cinema 21</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L456">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L456">Example</a></td>
         </tr>
         <tr>
             <td>TinyUrl</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L506">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L506">Example</a></td>
         </tr>
         <tr>
             <td>Bit.ly</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L511">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L511">Example</a></td>
         </tr>
         <tr>
             <td>KBBI</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L521">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L521">Example</a></td>
         </tr>
         <tr>
             <td>Top News</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L526">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L526">Example</a></td>
         </tr>
         <tr>
             <td>Wikipedia</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L538">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L538">Example</a></td>
         </tr>
         <tr>
             <td>Urban Dictionary</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L544">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L544">Example</a></td>
         </tr>
         <tr>
             <td>Zodiac Daily</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L551">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L551">Example</a></td>
         </tr>
         <tr>
             <td>Info Waktu Sholat</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L566">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L566">Example</a></td>
         </tr>
         <tr>
             <td>Info Cuaca Dunia</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L581">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L581">Example</a></td>
         </tr>
         <tr>
             <td>Info Gempa BMKG</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L590">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L590">Example</a></td>
         </tr>
         <tr>
             <td>Info Corona Virus</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L605">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L605">Example</a></td>
         </tr>
         <tr>
             <td>Info Lowongan Kerja</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L619">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L619">Example</a></td>
         </tr>
         <tr>
             <td>Info Resi Pengiriman</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L638">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L638">Example</a></td>
         </tr>
         <tr>
             <td>Info Phone Cellular</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L659">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L659">Example</a></td>
         </tr>
         <tr>
             <td>Info Tanggal Lahir</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L676">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L676">Example</a></td>
         </tr>
         <tr>
             <td>Info Tanggal Jadian</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L685">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L685">Example</a></td>
         </tr>
         <tr>
             <td>Arti Nama</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L692">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L692">Example</a></td>
         </tr>
         <tr>
             <td>Arti Mimpi</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L699">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L699">Example</a></td>
         </tr>
         <tr>
             <td>Acara TV Sekarang</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L707">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L707">Example</a></td>
         </tr>
         <tr>
             <td>Acara TV Stasiun</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L717">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L717">Example</a></td>
         </tr>
         <tr>
             <td>CCTV Camera Code</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L724">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L724">Example</a></td>
         </tr>
         <tr>
             <td>CCTV Camera Search</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L734">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L734">Example</a></td>
         </tr>
         <tr>
             <td>Manga Search</td>
             <td>Maintenance</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L744">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L744">Example</a></td>
         </tr>
         <tr>
             <td>Manga Chapter</td>
             <td>Maintenance</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L758">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L758">Example</a></td>
         </tr>
         <tr>
             <td>Calculator</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L804">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L804">Example</a></td>
         </tr>
         <tr>
             <td>Languages Code</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L345">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L345">Example</a></td>
         </tr>
         <tr>
             <td>Check IP Address</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L809">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L809">Example</a></td>
         </tr>
         <tr>
             <td>Binary Encode</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L821">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L821">Example</a></td>
         </tr>
         <tr>
             <td>Binary Decode</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L826">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L826">Example</a></td>
         </tr>
         <tr>
             <td>Base64 Encode</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L831">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L831">Example</a></td>
         </tr>
         <tr>
             <td>Base64 Decode</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L836">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L836">Example</a></td>
         </tr>
         <tr>
             <td>Screenshot Web</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L767">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L767">Example</a></td>
         </tr>
         <tr>
             <td>ASCII Text</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L841">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L841">Example</a></td>
         </tr>
         <tr>
             <td>Fancy Text</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L845">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L845">Example</a></td>
         </tr>
         <tr>
             <td>Customize URL</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L516">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L516">Example</a></td>
         </tr>
         <tr>
             <td>GIF Search</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L774">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L774">Example</a></td>
         </tr>
         <tr>
             <td>Image to URL</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L779">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L779">Example</a></td>
         </tr>
         <tr>
             <td>Text to Image</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L784">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L784">Example</a></td>
         </tr>
         <tr>
             <td>Watermark Text</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L789">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L789">Example</a></td>
         </tr>
         <tr>
             <td>Watermark Icon</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L794">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L794">Example</a></td>
         </tr>
         <tr>
             <td>SimiSimi</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/2c75c462f43c5ca81a1c9302166b0376356704dd/example.py#L799">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L799">Example</a></td>
         </tr>
     </tbody>
 </table>
 
 ### Contact us here
 * <a href="https://imjustgood.com/team">Imjustgood Team</a>
-* <a href="https://bit.ly/2K5Lbx4">LINE Openchat Room</a>
+* <a href="https://api.imjustgood.com/custom/forum">LINE Openchat Room</a>
