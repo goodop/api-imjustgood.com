@@ -33,24 +33,6 @@ class imjustgood(threading.Thread):
            raise Exception(req["message"])
         return req
 
-    """
-       Usage:
-         @text = string
-         @name = string
-         @query = string
-         @url = url string
-         @imageUrl = url image
-         @path = file location
-         @userId = social user id
-         @chapterId = manga chapter
-         @code = city code
-         @city = city name | eg: jakarta
-         @sign = zodiac sign | eg: aries
-         @date = date-month-year | eg: 17-08-1945
-         @channnel = television channel         
-         @lang = country code. check here >> https://api.imjustgood.com/language/code
-    """
-
     def youtube(self, query):
         return self.Get("/youtube="+query)
 
