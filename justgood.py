@@ -243,6 +243,10 @@ class imjustgood(threading.Thread):
     def imagetext(self, query):
         return self.Get("/imgtext?text="+query)
 
+    def ascii(self,query):
+        main = self.session.get(self.host+"/ascii="+query,headers=self.headers)
+        return main.text.split("pre")[1][1:-2]
+
     def customlink(self, label, url):
         return self.Get("/custom/make", headers={"label": label, "url": url})
 
