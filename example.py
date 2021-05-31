@@ -823,6 +823,10 @@ data = api.B64Decode("VGhlQXV0b2JvdHNDb3Jw")
 result = data["result"]
 print(result)
 
+# ASCII TEXT
+data = api.ascii("imjustgood")
+print(data)
+
 # FANCY TEXT
 data = api.fancy("IMJUSTGOOD")
 result = ""
