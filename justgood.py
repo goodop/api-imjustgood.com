@@ -231,21 +231,41 @@ class imjustgood(threading.Thread):
     def calc(self, query):
         return self.Get("/calc="+query)
 
+    def language(self):
+        return self.Get("/language/code")
+
+    def lineapp(self):
+        return self.Get("/line")
+
     def check_ip(self, query):
         return self.Get("/ip="+query)
 
-    def customlink(self, label, url):
-        headers = {"label": label, "url": url}
-        return self.Get("/custom/make", headers=headers)
+    def BinaryEncode(self, query):
+        return self.Get("/binary/text?q="+query)
+
+    def BinaryDecode(self, query):
+        return self.Get("/binary/digit?q="+query)
+
+    def B64Encode(self, query):
+        return self.Get("/base64/text?q="+query)
+
+    def B64Decode(self, query):
+        return self.Get("/base64/code?q="+query)
+
+    def fancy(self, query):
+        return self.Get("/fancy?text="+query)
+
+    def simisimi(self, query):
+        return self.Get("/simisimi?text="+query)
 
     def imagetext(self, query):
         return self.Get("/imgtext?text="+query)
+
+    def customlink(self, label, url):
+        return self.Get("/custom/make", headers={"label": label, "url": url})
 
     def watermark_image(self, imageUrl, iconUrl):
         return self.Get("/watermark/image?image="+imageUrl+"&icon="+iconUrl)
 
     def watermark_text(self, imageUrl, text):
         return self.Get("/watermark/text?image="+imageUrl+"&text="+text)
-
-    def simisimi(self, query):
-        return self.Get("/simisimi?text="+query)
