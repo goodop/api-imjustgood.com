@@ -587,6 +587,21 @@ result += "\nAngin : {}".format(data["result"]["wind"])
 result += "\nKelembapan : {}".format(data["result"]["humidity"])
 print(result)
 
+# INFO GEMPA - BMKG
+data = api.bmkg()
+result = "Info Gempa BMKG"
+result += "\nTanggal : {}".format(data["result"]["tanggal"])
+result += "\nPukul : {}".format(data["result"]["pukul"])
+result += "\nLokasi : {}".format(data["result"]["lokasi"])
+result += "\nWilayah : {}".format(data["result"]["wilayah"])
+result += "\nKordinat : {}".format(data["result"]["kordinat"])
+result += "\nKedalaman : {}".format(data["result"]["kedalaman"])
+result += "\nKekuatan : {}".format(data["result"]["kekuatan"])
+result += "\nArahan : {}".format(data["result"]["arahan"])
+result += "\nSaran : {}".format(data["result"]["saran"])
+result += "\nPeta Skema : {}".format(data["result"]["skema"])
+print(result)
+
 # INFO CORONA VIRUS / COVID-19
 data = api.corona()
 result = "CORONA VIRUS QUICKCOUNT"
