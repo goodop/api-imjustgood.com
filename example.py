@@ -850,5 +850,5 @@ for s in data["result"]:
 print(result)
 
 ''' INFORMATION UPDATE AVALAIBLE ON :
-WEBSITE - https://api.imjustgood.com/apidoc
-LINE OFFICIAL - https://api.imjustgood.com/custom/update '''
+WEBSITE  - https://api.imjustgood.com/apidoc
+TIMELINE - https://api.imjustgood.com/custom/announcements '''
