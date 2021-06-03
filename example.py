@@ -248,8 +248,8 @@ print(result)
 # LINE SECONDARY LOGIN
 host = "https://api.imjustgood.com/lineqr"
 useragent = "JustGood/5.0"
-appname = "CHROMEOS\t2.4.4\tChromeOS\t88" # example app name
-sysname = "JUSTGOOD" # example system name
+appname = "CHROMEOS\t2.4.4\tChromeOS\t88"
+sysname = "JUSTGOOD"
 cert = None
 headers = {
   "apikey": key,
