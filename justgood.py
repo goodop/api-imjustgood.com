@@ -33,6 +33,9 @@ class imjustgood(threading.Thread):
            raise Exception(req["message"])
         return req
 
+    def status(self):
+        return self.Get("/status?apikey="+self.headers['apikey'])
+
     def youtube(self, query):
         return self.Get("/youtube="+query)
 
