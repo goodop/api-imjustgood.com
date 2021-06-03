@@ -34,7 +34,8 @@ class imjustgood(threading.Thread):
         return req
 
     def status(self):
-        return self.Get("/status?apikey="+self.headers['apikey'])
+        apikey = self.headers['apikey']
+        return self.Get("/status?apikey="+apikey)
 
     def youtube(self, query):
         return self.Get("/youtube="+query)
