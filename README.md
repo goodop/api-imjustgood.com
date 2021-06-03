@@ -109,7 +109,7 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
         <tr>
             <td>Apikey Status</td>
             <td>Active</td>
-            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/a655bd89218a1f25747573aaed2572eadea1e461/example.py#L13">Example</a></td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/cc4234a2c12893c965932a37799f6d1dc49122d3/example.py#L13">Example</a></td>
         </tr>
         <tr>
             <td>Youtube Search</td>
