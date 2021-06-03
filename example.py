@@ -11,7 +11,7 @@ key = "Your_Apikey_Here"
 api = imjustgood(key)
 
 # APIKEY STATUS
-data = api.status(key)
+data = api.status()
 result = "ID : {}".format(data["result"]["id"])
 result += "\nType : {}".format(data["result"]["type"])
 result += "\nUsage : {}".format(data["result"]["usage"])
