@@ -246,40 +246,19 @@ result += "\nAvatar : {}".format(data["result"]["avatar"])
 print(result)
 
 # LINE SECONDARY LOGIN
-host = "https://api.imjustgood.com/lineqr"
-useragent = "JustGood/5.0"
-appname = "CHROMEOS\t2.4.4\tChromeOS\t88"
-sysname = "JUSTGOOD"
-cert = None
-headers = {
-  "apikey": key,
-  "appName": appName,
-  "sysName": sysName,
-  "cert": cert,
-  "User-Agent": uagent
-}
-data = json.loads(get(host,headers=headers).text)
-print(data["result"]["qr"])
-if cert is None:
-    for i in range(10):
-        main = json.loads(get(data["result"]["callback"]["pin"],headers=headers).text)
-        if main["status"] == 200:
-            print(main["result"]["pin"])
-            break
-        elif i == 9:
-            print(main["message"])
-            break
-        else:time.sleep(1)
-for i in range(10):
-    main = json.loads(get(data["result"]["callback"]["token"],headers=headers).text)
-    if main["status"] == 200:
-        print(main["result"]["token"])
-        print(main["result"]["cert"])
-        break
-    elif i == 9:
-        print(main["message"])
-        break
-    else:time.sleep(1)
+data = api.lineqr(appName="CHROMEOS\t2.4.5\tChromeOS\t1", sysName="JUSTGOOD", cert=None)
+cbpin = data["result"]["callback"]["pin"]
+cbaut = data["result"]["callback"]["token"]
+linkqr = data["result"]["qr"]
+print(linkqr)
+data = api.lineqrGetPin(cbpin)
+if data["status"] == 200:
+    pin = data["result"]["pin"]
+    print(pin)
+data = api.lineqrGetToken(cbaut)
+result = "Certified : {}\n\n".format(data["result"]["cert"])
+result += "Authtoken : {}".format(data["result"]["token"])
+print(result)
 
 # LINE TIMELINE DOWNLOADER BY URL
 data = api.timeline("https://timeline.line.me/post/_dYzCumD5eS8O1hq9aFKBaFHwN6dX80SeSE06k6U/1150542613404018340")
