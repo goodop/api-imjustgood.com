@@ -223,6 +223,19 @@ class imjustgood(threading.Thread):
     def lineapp(self):
         return self.Get("/line")
 
+    def lineqr(self, appName="CHROMEOS\t2.4.5\tChromeOS\t1", sysName="JUSTGOOD", cert=None):
+        return self.Get("/lineqr", headers={"appName": appName, "sysName": sysName, "cert": cert})
+
+    def lineqrGetPin(self, url):
+        path = "/lineqr/pin="+url.split("=")[1]
+        req = json.loads(self.session.get(self.host+path,headers=self.headers).text)
+        return req
+
+    def lineqrGetToken(self, url):
+        path = "/lineqr/token="+url.split("=")[1]
+        req = json.loads(self.session.get(self.host+path,headers=self.headers).text)
+        return req
+
     def check_ip(self, query):
         return self.Get("/ip="+query)
 
