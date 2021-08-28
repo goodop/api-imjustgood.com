@@ -2,7 +2,9 @@ from justgood import imjustgood
 
 api  = imjustgood("YOUR_APIKEY_HERE")
 data = api.status()
+print(data)
 
+# EXAMPLE GET CERTAIN ATTRIBUTES
 result  = "ID : {}".format(data["result"]["id"])
 result += "\nType : {}".format(data["result"]["type"])
 result += "\nUsage : {}".format(data["result"]["usage"])
