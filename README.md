@@ -17,7 +17,7 @@ api media service to make your code more better.
 </p>
 
 ### Documentation
-Full documentation available on https://api.imjustgood.com/
+Full documentation available <a href="https://api.imjustgood.com/">here</a>
 
 ### Installation
 ```
