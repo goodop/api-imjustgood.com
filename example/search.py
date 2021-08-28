@@ -6,7 +6,7 @@ print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
 number = 0
-result = "Google Result :"
+result = "GOOGLE SEARCH RESULT :"
 for s in data["result"]:
     number += 1
     result += "\n{}. {}".format(number,s["title"])
