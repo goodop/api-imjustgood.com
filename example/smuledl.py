@@ -4,7 +4,7 @@ api  = imjustgood("YOUR_APIKEY_HERE")
 data = api.smuledl("https://www.smule.com/p/1998769355_3429377039")
 print(data)
 
-# GET CERTAIN ATTRIBUTES
+# EXAMPLE GET CERTAIN ATTRIBUTES
 result  = "Title : {}".format(data["result"]["title"])
 result += "\nType : {}".format(data["result"]["type"])
 result += "\n\nCaption : {}".format(data["result"]["caption"])
