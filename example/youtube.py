@@ -2,7 +2,9 @@ from justgood import imjustgood
 
 api  = imjustgood("YOUR_APIKEY_HERE")
 data = api.youtube("despacito")
+print(data)
 
+# EXAMPLE GET CERTAIN ATTRIBUTES
 result  = "Title : {}".format(data["result"]["title"])
 result += "\nAuthor : {}".format(data["result"]["author"])
 result += "\nDuration : {}".format(data["result"]["duration"])
