@@ -2,7 +2,9 @@ from justgood import imjustgood
 
 api  = imjustgood("YOUR_APIKEY_HERE")
 data = api.joox("lathi")
+print(data)
 
+# EXAMPLE GET CERTAIN ATTRIBUTES
 result  = "Singer : {}".format(data["result"]["singer"])
 result += "\nTitle : {}".format(data["result"]["title"])
 result += "\nDuration : {}".format(data["result"]["duration"])
