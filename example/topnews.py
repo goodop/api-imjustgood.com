@@ -1,12 +1,12 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.topnews()
+api    = imjustgood("YOUR_APIKEY_HERE")
+data   = api.topnews()
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
 number = 0
-result = "Top News Daily"
+result = "Daily Top News"
 for a in data["result"]:
     number += 1
     result += "\n\n{}. {}".format(number,a["title"])
