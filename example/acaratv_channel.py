@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.acaratv_channel("globaltv")
+api    = imjustgood("YOUR_APIKEY_HERE")
+data   = api.acaratv_channel("globaltv")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
