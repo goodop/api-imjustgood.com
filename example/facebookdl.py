@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.facebookdl("https://fb.watch/407ynrmyQq/")
+api     = imjustgood("YOUR_APIKEY_HERE")
+data    = api.facebookdl("https://fb.watch/407ynrmyQq/")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
