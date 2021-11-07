@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.mimpi("ciuman")
+api    = imjustgood("YOUR_APIKEY_HERE")
+data   = api.mimpi("ciuman")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
