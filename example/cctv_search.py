@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.cctvSearch("204")
+api     = imjustgood("YOUR_APIKEY_HERE")
+data    = api.cctvSearch("204")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
