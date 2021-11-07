@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.gif("coding")
+api    = imjustgood("YOUR_APIKEY_HERE")
+data   = api.gif("coding")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
