@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.mangaChapter("boruto-naruto-next-generations-chapter-001")
+api    = imjustgood("YOUR_APIKEY_HERE")
+data   = api.mangaChapter("boruto-naruto-next-generations-chapter-63-2-bahasa-indonesia")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
