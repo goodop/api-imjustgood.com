@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.smuledl("https://www.smule.com/p/1998769355_3429377039")
+api     = imjustgood("YOUR_APIKEY_HERE")
+data    = api.smuledl("https://www.smule.com/p/1998769355_3429377039")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
