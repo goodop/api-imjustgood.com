@@ -5,8 +5,8 @@ class imjustgood(threading.Thread):
         super(imjustgood, self).__init__()
         self.host = "https://api.imjustgood.com"
         self.headers = {
-            "apikey": apikey,
-            "User-Agent": "Justgood/5.0"
+            "User-Agent": "Justgood/5.0",
+            "apikey": apikey
         }
         self.session = requests.Session()
 
@@ -18,17 +18,17 @@ class imjustgood(threading.Thread):
             headers = {**headers, **self.headers}
         else:
             headers = self.headers
-        req = json.loads(self.session.get(self.host+path,headers=headers).text)
+        req = json.loads(self.session.get(self.host+path, headers=headers).text)
         if req["status"] != 200:
            raise Exception(req["message"])
         return req
 
-    def Post(self, path, headers=None, data=None, files=None, jhon=None):
+    def Post(self, path, headers=None, data=None, files=None, djson=None):
         if headers:
             headers = {**headers, **self.headers}
         else:
             headers = self.headers
-        req = json.loads(self.session.post(self.host+path,headers=headers,data=data,files=files,json=jhon).text)
+        req = json.loads(self.session.post(self.host+path, headers=headers, data=data, files=files, json=djson).text)
         if req["status"] != 200:
            raise Exception(req["message"])
         return req
@@ -49,29 +49,32 @@ class imjustgood(threading.Thread):
     def lyric(self, query):
         return self.Get("/lyric="+query)
 
-    def smule(self, userId):
-        return self.Get("/smule="+userId)
+    def chord(self, query):
+        return self.Get("/chord="+query)
+
+    def smule(self, username):
+        return self.Get("/smule="+username)
     
     def smuledl(self, url):
         return self.Get("/smuledl="+url)
 
-    def tiktok(self, userId):
-        return self.Get("/tiktok="+userId)
+    def tiktok(self, username):
+        return self.Get("/tiktok="+username)
     
     def tiktokdl(self, url):
         return self.Get("/tiktokdl="+url)
 
-    def instagram(self, userId):
-        return self.Get("/instagram="+userId)
+    def instagram(self, username):
+        return self.Get("/instagram="+username)
     
     def instapost(self, url):
         return self.Get("/instapost="+url)
 
-    def instastory(self, userId):
-        return self.Get("/instastory="+userId)
+    def instastory(self, username):
+        return self.Get("/instastory="+username)
 
-    def twitter(self, userId):
-        return self.Get("/twitter="+userId)
+    def twitter(self, username):
+        return self.Get("/twitter="+username)
 
     def twitterdl(self, url):
         return self.Get("/twitter/video?url="+url)
@@ -79,8 +82,11 @@ class imjustgood(threading.Thread):
     def facebookdl(self, url):
         return self.Get("/facebook/video?url="+url)
 
-    def github(self, userId):
-        return self.Get("/github="+userId)
+    def pinterest(self, url):
+        return self.Get("/pinterest?url="+url)
+
+    def github(self, username):
+        return self.Get("/github="+username)
 
     def playstore(self, query):
         return self.Get("/playstore="+query)
@@ -115,8 +121,8 @@ class imjustgood(threading.Thread):
     def vagina(self):
         return self.Get("/vagina")
 
-    def meme(self, text1, text2, imageUrl):
-        return self.Get("/meme/"+text1+"/"+text2+"/url="+imageUrl)
+    def meme(self, text1, text2, url):
+        return self.Get("/meme/"+text1+"/"+text2+"/url="+url)
 
     def movie(self, query):
         return self.Get("/movie="+query)
@@ -147,6 +153,15 @@ class imjustgood(threading.Thread):
 
     def zodiac(self, sign):
         return self.Get("/zodiac="+sign)
+
+    def alquran(self):
+        return self.Get("/alquran=list")
+
+    def alquranQS(self, query):
+        return self.Get("/alquran="+query)
+
+    def bible(self):
+        return self.Get("/bible")
 
     def adzan(self, city):
         return self.Get("/adzan="+city)
@@ -223,18 +238,14 @@ class imjustgood(threading.Thread):
     def lineapp(self):
         return self.Get("/line")
 
-    def lineqr(self, appName="CHROMEOS\t2.4.5\tChromeOS\t1", sysName="JUSTGOOD", cert=None):
+    def lineqr(self, appName="CHROMEOS\t2.4.7\tChromeOS\t96", sysName="IMJUSTGOOD", cert=None):
         return self.Get("/lineqr", headers={"appName": appName, "sysName": sysName, "cert": cert})
 
-    def lineqrGetPin(self, url):
-        path = "/lineqr/pin="+url.split("=")[1]
-        req = json.loads(self.session.get(self.host+path,headers=self.headers).text)
-        return req
+    def lineqrGetPin(self, path):
+        return self.Get("/pin"+path[30:])
 
-    def lineqrGetToken(self, url):
-        path = "/lineqr/token="+url.split("=")[1]
-        req = json.loads(self.session.get(self.host+path,headers=self.headers).text)
-        return req
+    def lineqrGetToken(self, path):
+        return self.Get("/token"+path[32:])
 
     def check_ip(self, query):
         return self.Get("/ip="+query)
@@ -261,11 +272,20 @@ class imjustgood(threading.Thread):
         return self.Get("/imgtext?text="+query)
 
     def ascii(self,query):
-        main = self.session.get(self.host+"/ascii="+query,headers=self.headers)
+        main = self.session.get(self.host+"/ascii="+query, headers=self.headers)
         return main.text.split("pre")[1][1:-2]
 
     def customlink(self, label, url):
         return self.Get("/custom/make", headers={"label": label, "url": url})
+
+    def fansign(self, num, text):
+        return self.Get(f"/fansign?text={text}&num={num}")
+
+    def stamp(self, num, url):
+        return self.Get(f"/stamp?url={url}&num={num}")
+
+    def stamplist(self):
+        return self.Get("/stamplist")
 
     def watermark_image(self, imageUrl, iconUrl):
         return self.Get("/watermark/image?image="+imageUrl+"&icon="+iconUrl)
