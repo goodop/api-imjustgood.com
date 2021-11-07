@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.timeline("https://timeline.line.me/post/_dYzCumD5eS8O1hq9aFKBaFHwN6dX80SeSE06k6U/1162494674404019031")
+api     = imjustgood("YOUR_APIKEY_HERE")
+data    = api.timeline("https://timeline.line.me/post/1157327428604012149")
 print(data)
 
 # GET CERTAIN ATTRIBUTES
