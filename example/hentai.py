@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.hentai()
+api    = imjustgood("YOUR_APIKEY_HERE")
+data   = api.hentai()
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
