@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.search("mini selfbot line")
+api    = imjustgood("YOUR_APIKEY_HERE")
+data   = api.search("mini selfbot line")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
