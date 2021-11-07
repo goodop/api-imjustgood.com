@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.resi("jne", "CGK2H03789568816")
+api     = imjustgood("YOUR_APIKEY_HERE")
+data    = api.resi("jne", "CGK2H03789568816")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
