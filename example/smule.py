@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.smule("avamax")
+api     = imjustgood("YOUR_APIKEY_HERE")
+data    = api.smule("avamax")
 print(data)
 
 # EXAMPLE GET PROFILE ATTRIBUTES
