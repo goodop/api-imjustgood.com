@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.cuaca("surabaya")
+api     = imjustgood("YOUR_APIKEY_HERE")
+data    = api.cuaca("surabaya")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
