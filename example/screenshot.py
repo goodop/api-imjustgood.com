@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.screenshot("https://ren.imjustgood.com/p/autobots")
+api     = imjustgood("YOUR_APIKEY_HERE")
+data    = api.screenshot("https://ren.imjustgood.com/p/autobots")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
