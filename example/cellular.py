@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.cellular("iphone 12")
+api    = imjustgood("YOUR_APIKEY_HERE")
+data   = api.cellular("iphone 13")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
