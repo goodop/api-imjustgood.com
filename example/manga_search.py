@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.mangaSearch("boruto")
+api     = imjustgood("YOUR_APIKEY_HERE")
+data    = api.mangaSearch("boruto")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
