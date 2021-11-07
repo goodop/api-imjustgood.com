@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.github("rendytr")
+api     = imjustgood("YOUR_APIKEY_HERE")
+data    = api.github("rendytr")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
