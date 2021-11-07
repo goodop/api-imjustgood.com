@@ -2,7 +2,8 @@ from justgood import imjustgood
 
 api      = imjustgood("YOUR_APIKEY_HERE")
 
-# LIST QUR'AN SURAH
+# GET LIST QUR'AN SURAH
+# LINK https://api.imjustgood.com/alquran=list
 data     = api.alquran()
 result   = "QUR'AN SURAH :"
 for qs in data:
