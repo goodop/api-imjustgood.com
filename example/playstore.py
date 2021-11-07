@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.playstore("gojek")
+api    = imjustgood("YOUR_APIKEY_HERE")
+data   = api.playstore("gojek")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
