@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.youtubedl("https://youtu.be/kJQP7kiw5Fk")
+api     = imjustgood("YOUR_APIKEY_HERE")
+data    = api.youtubedl("https://youtu.be/kJQP7kiw5Fk")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
