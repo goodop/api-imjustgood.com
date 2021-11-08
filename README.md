@@ -39,7 +39,7 @@ data = api.instapost("https://instagram.com/p/COjHqwGhFA6/")
 print(data)
 ```
 
-Response results
+[ 2OO ] Response Success
 ```json
 {
     "creator": "Imjustgood",
