@@ -30,4 +30,4 @@ for i in range(len(verse)):
 result  += "\nDiturunkan di : {}\n".format(place)
 result  += "\n{}".format(desc)
 print(result)
-print(audio)
+print(audioUrl)
