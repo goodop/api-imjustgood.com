@@ -520,5 +520,5 @@ video https://scontent-dfw5-2.cdninstagram.com/v/t50.2886-16/182025601_453566249
 </table>
 
 ### Contact us
-* <a href="https://imjustgood.com/team">Imjustgood Team</a>
-* <a href="https://api.imjustgood.com/custom/forum">LINE Openchat</a>
+* <a href="https://imjustgood.com/team">IMJUSTGOOD TEAM</a>
+* <a href="https://api.imjustgood.com/custom/forum">LINE OPENCHAT</a>
