@@ -1,10 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.wikipedia("jakarta")
-print(data)
+api    = imjustgood("YOUR_APIKEY_HERE")
+data   = api.wikipedia("jakarta")
+result = data["result"]
 
-# EXAMPLE GET CERTAIN ATTRIBUTES
-result  = "Wikipedia : {}".format(query)
-result += "\nDescription : {}".format(data["result"])
 print(result)
