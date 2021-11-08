@@ -1,7 +1,7 @@
 from justgood import imjustgood
 
-api  = imjustgood("YOUR_APIKEY_HERE")
-data = api.wallpaper("nude")
+api   = imjustgood("YOUR_APIKEY_HERE")
+data  = api.wallpaper("nude")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
