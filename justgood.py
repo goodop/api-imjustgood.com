@@ -155,7 +155,9 @@ class imjustgood(threading.Thread):
         return self.Get("/zodiac="+sign)
 
     def alquran(self):
-        return self.Get("/alquran=list")
+        path = self.host+"/alquran=list"
+        main = self.session.get(path, headers=self.headers)
+        return json.loads(main.text)
 
     def alquranQS(self, query):
         return self.Get("/alquran="+query)
@@ -242,10 +244,14 @@ class imjustgood(threading.Thread):
         return self.Get("/lineqr", headers={"appName": appName, "sysName": sysName, "cert": cert})
 
     def lineqrGetPin(self, path):
-        return self.Get("/pin"+path[30:])
+        path = self.host+"/pin"+path[30:]
+        main = self.session.get(path, headers=self.headers)
+        return json.loads(main.text)
 
     def lineqrGetToken(self, path):
-        return self.Get("/token"+path[32:])
+        path = self.host+"/token"+path[32:]
+        main = self.session.get(path, headers=self.headers)
+        return json.loads(main.text)
 
     def check_ip(self, query):
         return self.Get("/ip="+query)
@@ -271,21 +277,24 @@ class imjustgood(threading.Thread):
     def imagetext(self, query):
         return self.Get("/imgtext?text="+query)
 
-    def ascii(self,query):
-        main = self.session.get(self.host+"/ascii="+query, headers=self.headers)
-        return main.text.split("pre")[1][1:-2]
-
-    def customlink(self, label, url):
-        return self.Get("/custom/make", headers={"label": label, "url": url})
-
-    def fansign(self, num, text):
-        return self.Get(f"/fansign?text={text}&num={num}")
-
     def stamp(self, num, url):
         return self.Get(f"/stamp?url={url}&num={num}")
 
     def stamplist(self):
-        return self.Get("/stamplist")
+        path = self.host+"/stamplist"
+        main = self.session.get(path, headers=self.headers)
+        return json.loads(main.text)
+
+    def fansign(self, num, text):
+        return self.Get(f"/fansign?text={text}&num={num}")
+
+    def ascii(self,query):
+        path = self.host+"/ascii="+query
+        main = self.session.get(path, headers=self.headers)
+        return main.text.split("pre")[1][1:-2]
+
+    def customlink(self, label, url):
+        return self.Get("/custom/make", headers={"label": label, "url": url})
 
     def watermark_image(self, imageUrl, iconUrl):
         return self.Get("/watermark/image?image="+imageUrl+"&icon="+iconUrl)
