@@ -42,31 +42,37 @@ print(data)
 Response results
 ```json
 {
-    "creator": "ImJustGood", 
+    "creator": "Imjustgood",
     "result": {
-        "caption": "GET STARTED NOW\nhttps://api.imjustgood.com\n#autobots #rendytr #imjustgood", 
-        "created": "2 weeks ago", 
-        "fullname": "The Autobots Corporation", 
-        "likes": "8",
-        "picture": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/s150x150/156716508_792361228290684_2737571466878743960_n.jpg?tp=1&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=rpY8_az5H7gAX-ixW8W&edm=AP_V10EBAAAA&ccb=7-4&oh=660db30b81c81cf4eb6904c4937aa066&oe=60B73467&_nc_sid=4f375e", 
+        "caption": "GET STARTED NOW\nhttps://api.imjustgood.com\n#api #bot #pypi #coder #programmer",
+        "comments": "0",
+        "created": "6 months",
+        "fullname": "The Autobots Corporation",
+        "likes": "4",
+        "picture": "https://scontent-dfw5-1.cdninstagram.com/v/t51.2885-19/s150x150/156716508_792361228290684_2737571466878743960_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_ohc=DcPim13c_wwAX-sMjZS&edm=AP_V10EBAAAA&ccb=7-4&oh=0ee335f38e283da94b487e352c644fee&oe=618CC767&_nc_sid=4f375e",
         "postData": [
             {
-                "postUrl": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/182551939_1505660729785431_4872170436067358847_n.jpg?tp=1&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=103&_nc_ohc=4hwRibBJhRsAX-elcAw&edm=AP_V10EBAAAA&ccb=7-4&oh=d64890598377516a254a6d8bf5bdad41&oe=60B680F5&_nc_sid=4f375e", 
+                "postUrl": "https://scontent-dfw5-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/182551939_1505660729785431_4872170436067358847_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_cat=103&_nc_ohc=sycZtyZZ9sYAX-aX3KO&edm=AP_V10EBAAAA&ccb=7-4&oh=ed2899bb0481c69509d0fdb8b43e5b8e&oe=618C13F5&_nc_sid=4f375e",
+                "poster": "https://scontent-dfw5-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/182551939_1505660729785431_4872170436067358847_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_cat=103&_nc_ohc=sycZtyZZ9sYAX-aX3KO&edm=AP_V10EBAAAA&ccb=7-4&oh=ed2899bb0481c69509d0fdb8b43e5b8e&oe=618C13F5&_nc_sid=4f375e",
                 "type": "image"
-            }, 
+            },
             {
-                "postUrl": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/182772702_212190447098888_3451476763231220039_n.jpg?tp=1&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=108&_nc_ohc=nacAdgapPioAX9oO99M&edm=AP_V10EBAAAA&ccb=7-4&oh=b605fbc309664405b8d1d936fe9b30ce&oe=60B6E2F7&_nc_sid=4f375e", 
+                "postUrl": "https://scontent-dfw5-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/182772702_212190447098888_3451476763231220039_n.jpg?_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=108&_nc_ohc=56tms7q1ISEAX-I2kYh&edm=AP_V10EBAAAA&ccb=7-4&oh=7bd47e38ad313317f10c2ea34ff3e05a&oe=618C75F7&_nc_sid=4f375e",
+                "poster": "https://scontent-dfw5-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/182772702_212190447098888_3451476763231220039_n.jpg?_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=108&_nc_ohc=56tms7q1ISEAX-I2kYh&edm=AP_V10EBAAAA&ccb=7-4&oh=7bd47e38ad313317f10c2ea34ff3e05a&oe=618C75F7&_nc_sid=4f375e",
                 "type": "image"
-            }, 
+            },
             {
-                "postUrl": "https://scontent-iad3-2.cdninstagram.com/v/t50.2886-16/183065958_515613456128123_180962327655226030_n.mp4?_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=111&_nc_ohc=HqRjnESsF-cAX8o4AeL&edm=AP_V10EBAAAA&ccb=7-4&oe=60B25D7F&oh=ce2f464d4ef43106620b6bf68f443b99&_nc_sid=4f375e", 
-                "poster": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/e35/182468569_529144071448455_8659487135953051116_n.jpg?tp=1&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=103&_nc_ohc=UT35RAAdxOIAX8MGqk9&edm=AP_V10EBAAAA&ccb=7-4&oh=9370c6ee9c9a32123800ddb5492aa37d&oe=60B2A563&_nc_sid=4f375e", 
+                "postUrl": "https://scontent-dfw5-2.cdninstagram.com/v/t50.2886-16/182025601_453566249276709_8096973933727838746_n.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjcyMC5jYXJvdXNlbF9pdGVtLmRlZmF1bHQiLCJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSJ9&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=109&_nc_ohc=vgMrw1umbesAX-yjQ3_&tn=3oUYNunjVH8-6bmA&edm=AP_V10EBAAAA&vs=17906475394874505_1120233946&_nc_vs=HBksFQAYJEdJRjkyUW9sbFNzZmhKd0JBQnJ5Y2FQa09sNXdia1lMQUFBRhUAAsgBABUAGCRHR3VtM2dyNHlqOURIc1VCQU9PRl9UNUNSV00wYmtZTEFBQUYVAgLIAQAoABgAGwGIB3VzZV9vaWwBMBUAACaSoMHShfbOPxUCKAJDMywXQDyzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAde4HAA%3D%3D&ccb=7-4&oe=61888C0F&oh=9a7713cd68565936d19d49c6c8fd97b7&_nc_sid=4f375e",
+                "poster": "https://scontent-dfw5-1.cdninstagram.com/v/t51.2885-15/e35/182468569_529144071448455_8659487135953051116_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_cat=103&_nc_ohc=MEOdksvOQ6wAX8YK38l&tn=3oUYNunjVH8-6bmA&edm=AP_V10EBAAAA&ccb=7-4&oh=2bf656ad3083ed43805be077aa7db849&oe=61883863&_nc_sid=4f375e",
                 "type": "video"
             }
-        ], 
-        "slidePost": true, 
-        "username": "the.autobots_corp"
-    }, 
+        ],
+        "postType": "post",
+        "private": false,
+        "slidePost": true,
+        "username": "the.autobots_corp",
+        "verified": false
+    },
     "status": 200
 }
 ```
@@ -83,22 +89,23 @@ The Autobots Corporation
 
 >>> created = data["result"]["created"]
 >>> print(created)
-2 days ago
+6 months ago
 
 >>> caption = data["result"]["caption"]
 >>> print(caption)
 GET STARTED NOW
 https://api.imjustgood.com
-#autobots #rendytr #imjustgood
+#api #bot #pypi #coder #programmer
 
 >>> picture = data["result"]["picture"]
 >>> print(picture)
 https://scontent-sin6-1.cdninstagram.com/v/t51.2885-19/s150x150/135785550_234471278085178_3734782670290828910_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_ohc=HQdOrvJcYNYAX-g_hAo&tp=1&oh=4780e9fa82b62dd71356498dfed7c362&oe=6022085E
 
 >>> for a in data["result"]["postData"]:
-...     print(a["postUrl"])
-https://scontent-sin6-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/135665982_715565716018895_1563117747618145065_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=111&_nc_ohc=A0n5IQVkjiAAX8VxJAr&tp=1&oh=427134cb92b3ce8ed9179dab92482ad2&oe=60232E2A
-https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083_6874742578521195210_n.mp4?_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_cat=103&_nc_ohc=mEzo-awDsoYAX9wKFgP&oe=5FFBC9C2&oh=725ceccf6e4668be7b8a4be70afbd7aa
+...     print(a["type"], a["postUrl"])
+image https://scontent-dfw5-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/182551939_1505660729785431_4872170436067358847_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_cat=103&_nc_ohc=sycZtyZZ9sYAX-aX3KO&edm=AP_V10EBAAAA&ccb=7-4&oh=ed2899bb0481c69509d0fdb8b43e5b8e&oe=618C13F5&_nc_sid=4f375e
+image https://scontent-dfw5-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/182772702_212190447098888_3451476763231220039_n.jpg?_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=108&_nc_ohc=56tms7q1ISEAX-I2kYh&edm=AP_V10EBAAAA&ccb=7-4&oh=7bd47e38ad313317f10c2ea34ff3e05a&oe=618C75F7&_nc_sid=4f375e
+video https://scontent-dfw5-2.cdninstagram.com/v/t50.2886-16/182025601_453566249276709_8096973933727838746_n.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjcyMC5jYXJvdXNlbF9pdGVtLmRlZmF1bHQiLCJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSJ9&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=109&_nc_ohc=vgMrw1umbesAX-yjQ3_&tn=3oUYNunjVH8-6bmA&edm=AP_V10EBAAAA&vs=17906475394874505_1120233946&_nc_vs=HBksFQAYJEdJRjkyUW9sbFNzZmhKd0JBQnJ5Y2FQa09sNXdia1lMQUFBRhUAAsgBABUAGCRHR3VtM2dyNHlqOURIc1VCQU9PRl9UNUNSV00wYmtZTEFBQUYVAgLIAQAoABgAGwGIB3VzZV9vaWwBMBUAACaSoMHShfbOPxUCKAJDMywXQDyzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAde4HAA%3D%3D&ccb=7-4&oe=61888C0F&oh=9a7713cd68565936d19d49c6c8fd97b7&_nc_sid=4f375e
 ```
 
 ### More Media Fitures
@@ -128,6 +135,11 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
             <td>Lyric Finder</td>
             <td>Active</td>
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/example/lyric.py">Example</a></td>
+        </tr>
+        <tr>
+            <td>Chord Finder</td>
+            <td>Active</td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/example/chord.py">Example</a></td>
         </tr>
         <tr>
             <td>Smule Profile</td>
@@ -178,6 +190,11 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
             <td>Facebook Downloader</td>
             <td>Active</td>
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/example/facebookdl.py">Example</a></td>
+        </tr>
+        <tr>
+            <td>Pinterest Downloader</td>
+            <td>Active</td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/example/pinterest.py">Example</a></td>
         </tr>
         <tr>
             <td>GitHub Profile</td>
@@ -315,6 +332,16 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/example/zodiac.py">Example</a></td>
         </tr>
         <tr>
+            <td>Al-Qur'an</td>
+            <td>Active</td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/example/alquran.py">Example</a></td>
+        </tr>
+        <tr>
+            <td>Bible</td>
+            <td>Active</td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/example/bible.py">Example</a></td>
+        </tr>
+        <tr>
             <td>Info Waktu Sholat</td>
             <td>Active</td>
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/example/adzan.py">Example</a></td>
@@ -391,12 +418,12 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
         </tr>
         <tr>
             <td>Manga Search</td>
-            <td>Deactive</td>
+            <td>Active</td>
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/example/manga_search.py">Example</a></td>
         </tr>
         <tr>
             <td>Manga Chapter</td>
-            <td>Deactive</td>
+            <td>Active</td>
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/example/manga_chapter.py">Example</a></td>
         </tr>
         <tr>
@@ -483,6 +510,11 @@ https://scontent-sin6-2.cdninstagram.com/v/t50.2886-16/136676648_446366420077083
             <td>SimiSimi</td>
             <td>Active</td>
             <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/example/simisimi.py">Example</a></td>
+        </tr>
+        <tr>
+            <td>Stamp Image</td>
+            <td>Active</td>
+            <td><a href="https://github.com/RendyTR/api.imjustgood.com/blob/main/example/stamp.py">Example</a></td>
         </tr>
     </tbody>
 </table>
