@@ -9,7 +9,9 @@ data    = api.lineqr(
 cbpin   = data["result"]["callback"]["pin"]
 cbtoken = data["result"]["callback"]["token"]
 qrlink  = data["result"]["qr"]
+barcode = data["result"]["barcode"]
 print(qrlink)
+print(barcode)
 
 data    = api.lineqrGetPin(cbpin)
 if data["status"] == 200:
@@ -17,7 +19,10 @@ if data["status"] == 200:
     print(pin)
 
 data    = api.lineqrGetToken(cbtoken)
-result  = "Application : {}\n\n".format(data["result"]["app"])
-result += "Certified : {}\n\n".format(data["result"]["cert"])
-result += "Authtoken : {}".format(data["result"]["token"])
+apps    = data["result"]["app"]
+cert    = data["result"]["cert"]
+token   = data["result"]["token"]
+result  = "Application : {}\n\n".format(apps)
+result += "Certified : {}\n\n".format(cert)
+result += "Authtoken : {}\n\n".format(token)
 print(result)
