@@ -7,15 +7,19 @@ print(data)
 # EXAMPLE GET CERTAIN ATTRIBUTES
 for x in data["result"]:
     if x["type"] == "mp4":
-        result  = "Type : Video"
+        result  = "Type : MP4"
         result += "\nCover : {}".format(x["cover"])
         result += "\nURL : {}".format(x["url"])
         print(result)
     elif x["type"] == "gif":
         result  = "Type : GIF"
-        result += "\nCover : {}".format(x["url"])
+        result += "\nURL : {}".format(x["url"])
+        print(result)
+    elif x["type"] == "png":
+        result  = "Type : PNG"
+        result += "\nURL : {}".format(x["url"])
         print(result)
     elif x["type"] == "jpg":
-        result  = "Type : Image"
-        result += "\nCover : {}".format(x["url"])
+        result  = "Type : JPG"
+        result += "\nURL : {}".format(x["url"])
         print(result)
