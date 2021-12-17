@@ -5,9 +5,10 @@ data    = api.translate("id", "hasta la vista baby")
 print(data)
 
 # EXAMPLE GET CERTAIN ATTRIBUTES
-result  = "Traslated to {}".format(data["result"]["language"])
+result  = "Traslated from {} ".format(data["result"]["fromLanguage"])
+result += "to {}".format(data["result"]["toLanguage"])
 result += "\n{}".format(data["result"]["translate"])
 print(result)
 
-# CHECK LANGUAGE CODE HERE
+# GET LANGUAGE CODE HERE
 # https://api.imjustgood.com/language/code
